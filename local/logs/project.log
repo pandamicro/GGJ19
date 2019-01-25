@@ -1,65 +1,138 @@
-2019-01-25T15:39:47.485Z - normal: Load ~/.CocosCreator/settings.json
-2019-01-25T15:39:48.765Z - normal: Initializing Asset Database
-2019-01-25T15:39:48.781Z - normal: checking language setting...
-2019-01-25T15:39:48.781Z - normal: Language: en
-2019-01-25T15:39:49.921Z - success: preview server running at http://localhost:7456
-2019-01-25T15:39:49.921Z - success: protocol editor-framework registered
-2019-01-25T15:39:49.921Z - success: protocol app registered
-2019-01-25T15:39:49.921Z - success: protocol theme registered
-2019-01-25T15:39:49.921Z - success: protocol packages registered
-2019-01-25T15:39:49.921Z - success: protocol uuid registerred
-2019-01-25T15:39:49.921Z - success: protocol db registerred
-2019-01-25T15:39:49.921Z - success: protocol thumbnail registerred
-2019-01-25T15:39:49.921Z - success: protocol unpack registerred
-2019-01-25T15:39:49.921Z - success: protocol disable-commonjs registerred
-2019-01-25T15:39:50.156Z - normal: connected!
-2019-01-25T15:39:50.156Z - normal: Check project D:\GGJ19
-2019-01-25T15:39:50.156Z - normal: Initializing project D:\GGJ19
-2019-01-25T15:39:51.469Z - normal: Initializing Cocos2d
-2019-01-25T15:39:52.656Z - normal: Initializing engine extends
-2019-01-25T15:39:52.672Z - success: asset-db-debugger loaded
-2019-01-25T15:39:52.688Z - success: code-editor loaded
-2019-01-25T15:39:52.688Z - success: color-picker loaded
-2019-01-25T15:39:52.813Z - success: fb-audience-network loaded
-2019-01-25T15:39:52.891Z - success: fb-live-stream loaded
-2019-01-25T15:39:52.906Z - success: google-play-instant loaded
-2019-01-25T15:39:52.906Z - success: huawei-runtime loaded
-2019-01-25T15:39:52.906Z - success: jsb-adapter loaded
-2019-01-25T15:39:52.922Z - success: oppo-runtime loaded
-2019-01-25T15:39:52.922Z - success: package-manager loaded
-2019-01-25T15:39:53.110Z - success: qqplay-adapter loaded
-2019-01-25T15:39:53.110Z - success: runtime-dev-tools loaded
-2019-01-25T15:39:53.110Z - success: sdkbox loaded
-2019-01-25T15:39:53.110Z - success: tester loaded
-2019-01-25T15:39:53.125Z - success: ui-grid loaded
-2019-01-25T15:39:53.125Z - success: ui-kit-preview-extra loaded
-2019-01-25T15:39:53.125Z - success: ui-kit-preview loaded
-2019-01-25T15:39:53.125Z - success: ui-kit loaded
-2019-01-25T15:39:53.125Z - success: ui-tree loaded
-2019-01-25T15:39:53.141Z - success: vivo-runtime loaded
-2019-01-25T15:39:53.141Z - success: weapp-adapter loaded
-2019-01-25T15:39:53.238Z - success: assets loaded
-2019-01-25T15:39:53.242Z - success: builder loaded
-2019-01-25T15:39:53.731Z - success: cocos-services loaded
-2019-01-25T15:39:53.736Z - success: console loaded
-2019-01-25T15:39:53.791Z - success: fb-instant-games loaded
-2019-01-25T15:39:53.796Z - success: game-window loaded
-2019-01-25T15:39:53.798Z - success: google-instant-games loaded
-2019-01-25T15:39:53.805Z - success: hierarchy loaded
-2019-01-25T15:39:53.809Z - success: inspector loaded
-2019-01-25T15:39:53.811Z - success: keystore loaded
-2019-01-25T15:39:53.816Z - success: node-library loaded
-2019-01-25T15:39:53.818Z - success: package-asset loaded
-2019-01-25T15:39:53.819Z - success: preferences loaded
-2019-01-25T15:39:53.821Z - success: project-exporter loaded
-2019-01-25T15:39:53.822Z - success: project-importer loaded
-2019-01-25T15:39:53.822Z - success: project-settings loaded
-2019-01-25T15:39:53.822Z - success: scene loaded
-2019-01-25T15:39:53.822Z - success: simulator-debugger loaded
-2019-01-25T15:39:53.822Z - success: sprite-editor loaded
-2019-01-25T15:39:53.838Z - success: store loaded
-2019-01-25T15:39:53.838Z - success: timeline loaded
-2019-01-25T15:39:56.381Z - info: Cocos Services load base data!
-2019-01-25T15:40:13.965Z - normal: Loading packages
-2019-01-25T15:40:13.981Z - normal: Watching packages
-2019-01-25T15:40:14.716Z - normal: Run Application
+2019-01-25T16:58:18.909Z - normal: Load ~/.CocosCreator/settings.json
+2019-01-25T16:58:20.062Z - normal: Initializing Asset Database
+2019-01-25T16:58:20.067Z - normal: checking language setting...
+2019-01-25T16:58:20.067Z - normal: Language: en
+2019-01-25T16:58:21.383Z - success: preview server running at http://localhost:7457
+2019-01-25T16:58:21.385Z - success: protocol editor-framework registered
+2019-01-25T16:58:21.385Z - success: protocol app registered
+2019-01-25T16:58:21.385Z - success: protocol theme registered
+2019-01-25T16:58:21.385Z - success: protocol packages registered
+2019-01-25T16:58:21.385Z - success: protocol uuid registerred
+2019-01-25T16:58:21.385Z - success: protocol db registerred
+2019-01-25T16:58:21.386Z - success: protocol thumbnail registerred
+2019-01-25T16:58:21.386Z - success: protocol unpack registerred
+2019-01-25T16:58:21.386Z - success: protocol disable-commonjs registerred
+2019-01-25T16:58:21.581Z - normal: connected!
+2019-01-25T16:58:21.583Z - normal: Check project D:\GGJ19
+2019-01-25T16:58:21.586Z - normal: Initializing project D:\GGJ19
+2019-01-25T16:58:22.826Z - normal: Initializing Cocos2d
+2019-01-25T16:58:24.080Z - normal: Initializing engine extends
+2019-01-25T16:58:24.117Z - success: asset-db-debugger loaded
+2019-01-25T16:58:24.126Z - success: code-editor loaded
+2019-01-25T16:58:24.127Z - success: color-picker loaded
+2019-01-25T16:58:24.297Z - success: fb-audience-network loaded
+2019-01-25T16:58:24.392Z - success: fb-live-stream loaded
+2019-01-25T16:58:24.397Z - success: google-play-instant loaded
+2019-01-25T16:58:24.404Z - success: huawei-runtime loaded
+2019-01-25T16:58:24.406Z - success: jsb-adapter loaded
+2019-01-25T16:58:24.412Z - success: oppo-runtime loaded
+2019-01-25T16:58:24.416Z - success: package-manager loaded
+2019-01-25T16:58:24.630Z - success: qqplay-adapter loaded
+2019-01-25T16:58:24.633Z - success: runtime-dev-tools loaded
+2019-01-25T16:58:24.639Z - success: sdkbox loaded
+2019-01-25T16:58:24.644Z - success: tester loaded
+2019-01-25T16:58:24.646Z - success: ui-grid loaded
+2019-01-25T16:58:24.649Z - success: ui-kit-preview-extra loaded
+2019-01-25T16:58:24.651Z - success: ui-kit-preview loaded
+2019-01-25T16:58:24.654Z - success: ui-kit loaded
+2019-01-25T16:58:24.677Z - success: ui-tree loaded
+2019-01-25T16:58:24.684Z - success: vivo-runtime loaded
+2019-01-25T16:58:24.684Z - success: weapp-adapter loaded
+2019-01-25T16:58:24.773Z - success: assets loaded
+2019-01-25T16:58:24.776Z - success: builder loaded
+2019-01-25T16:58:25.223Z - success: cocos-services loaded
+2019-01-25T16:58:25.228Z - success: console loaded
+2019-01-25T16:58:25.283Z - success: fb-instant-games loaded
+2019-01-25T16:58:25.289Z - success: game-window loaded
+2019-01-25T16:58:25.291Z - success: google-instant-games loaded
+2019-01-25T16:58:25.297Z - success: hierarchy loaded
+2019-01-25T16:58:25.300Z - success: inspector loaded
+2019-01-25T16:58:25.302Z - success: keystore loaded
+2019-01-25T16:58:25.307Z - success: node-library loaded
+2019-01-25T16:58:25.310Z - success: package-asset loaded
+2019-01-25T16:58:25.311Z - success: preferences loaded
+2019-01-25T16:58:25.313Z - success: project-exporter loaded
+2019-01-25T16:58:25.316Z - success: project-importer loaded
+2019-01-25T16:58:25.318Z - success: project-settings loaded
+2019-01-25T16:58:25.326Z - success: scene loaded
+2019-01-25T16:58:25.328Z - success: simulator-debugger loaded
+2019-01-25T16:58:25.334Z - success: sprite-editor loaded
+2019-01-25T16:58:25.341Z - success: store loaded
+2019-01-25T16:58:25.345Z - success: timeline loaded
+2019-01-25T16:58:27.463Z - info: Cocos Services load base data!
+2019-01-25T16:58:35.615Z - normal: Loading packages
+2019-01-25T16:58:35.625Z - normal: Watching packages
+2019-01-25T16:58:36.445Z - normal: Run Application
+2019-01-25T17:03:40.701Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/area-light.effect.meta
+2019-01-25T17:13:06.091Z - error: area-light-glow : Failed to compile fs 0 (ln 239): 
+ 'diffuse' : undeclared identifier: 
+      gl_FragColor = LINEAR_TO_OUTPUT_TEXEL(vec4(diffuse, diffuseColor.a));
+    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
+    at Array.forEach (native)
+    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
+    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
+    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:291:38)
+    at ForwardRenderer._transparentStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:327:30)
+    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
+    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
+    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
+2019-01-25T17:13:06.094Z - error: area-light-glow : Failed to compile fs 0 (ln 239): 
+ 'constructor' : not enough data provided for construction: 
+      gl_FragColor = LINEAR_TO_OUTPUT_TEXEL(vec4(diffuse, diffuseColor.a));
+    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
+    at Array.forEach (native)
+    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
+    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
+    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:291:38)
+    at ForwardRenderer._transparentStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:327:30)
+    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
+    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
+    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
+2019-01-25T17:24:24.309Z - error: area-light-glow : Failed to compile fs 0 (ln 238): 
+ '+' : wrong operand types - no operation '+' exists that takes a left-hand operand of type 'highp float' and a right operand of type 'const int' (or there is no acceptable conversion): 
+      color.a *= len / (len + 1);
+    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
+    at Array.forEach (native)
+    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
+    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
+    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:291:38)
+    at ForwardRenderer._transparentStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:327:30)
+    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
+    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
+    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
+2019-01-25T17:24:24.853Z - error: area-light-glow : Failed to compile fs 0 (ln 238): 
+ '+' : wrong operand types - no operation '+' exists that takes a left-hand operand of type 'highp float' and a right operand of type 'const int' (or there is no acceptable conversion): 
+      color.a *= len / (len + 1);
+    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
+    at Array.forEach (native)
+    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
+    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
+    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:291:38)
+    at ForwardRenderer._transparentStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:327:30)
+    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
+    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
+    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
+2019-01-25T17:28:55.493Z - error: area-light-glow : Failed to compile fs 0 (ln 240): 
+ 'pow' : no matching overloaded function found: 
+      color.a *= pow(len, 10);
+    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
+    at Array.forEach (native)
+    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
+    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
+    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:291:38)
+    at ForwardRenderer._transparentStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:327:30)
+    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
+    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
+    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
+2019-01-25T17:28:55.868Z - error: area-light-glow : Failed to compile fs 0 (ln 240): 
+ 'pow' : no matching overloaded function found: 
+      color.a *= pow(len, 10);
+    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
+    at Array.forEach (native)
+    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
+    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
+    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:291:38)
+    at ForwardRenderer._transparentStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:327:30)
+    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
+    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
+    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)

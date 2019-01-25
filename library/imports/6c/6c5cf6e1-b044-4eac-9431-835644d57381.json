@@ -22,6 +22,7 @@
       "passes": [
         {
           "cullMode": 0,
+          "depthTest": false,
           "blend": true,
           "blendEq": 32774,
           "blendSrc": 770,

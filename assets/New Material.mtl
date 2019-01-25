@@ -4,8 +4,11 @@
   "_objFlags": 0,
   "_native": "",
   "_effectAsset": {
-    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+    "__uuid__": "03362946-d1ee-43cc-a18b-02e940469ece"
   },
-  "_defines": {},
+  "_defines": {
+    "INPUT_IS_GAMMA": false,
+    "OUTPUT_TO_GAMMA": false
+  },
   "_props": {}
 }
