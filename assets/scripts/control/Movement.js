@@ -8,8 +8,6 @@
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
-const XAXI = cc.v2(1, 0);
-
 cc.Class({
     extends: cc.Component,
 
@@ -17,6 +15,7 @@ cc.Class({
         speed: 1,
         target: cc.Node,
         skeleton: cc.Node,
+        camera: cc.Node,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -68,6 +67,8 @@ cc.Class({
             let dy = this._dir.y * this.speed;
             this.target.x += dx;
             this.target.y += dy;
+            this.camera.x = this.target.x;
+            this.camera.y = this.target.y;
 
             let distance = this._dir.mag();
             if (distance > 3) {

@@ -430,13 +430,13 @@
     "relativePath": "scripts/environment.js"
   },
   "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
-    "asset": 1548439701162,
-    "meta": 1548439701168,
+    "asset": 1548446468321,
+    "meta": 1548446468327,
     "relativePath": "scene/gameplay_test.fire"
   },
   "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
-    "asset": 1548445141937,
-    "meta": 1548445145226,
+    "asset": 1548446464116,
+    "meta": 1548446467244,
     "relativePath": "scripts/control/Movement.js"
   }
 }
