@@ -1,0 +1,18 @@
+[
+  {
+    "__type__": "cc.Mesh",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "_resource": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "ModelMeshResource",
+    "_meshID": 4,
+    "_model": {
+      "__uuid__": "954fec8b-cd16-4bb9-a3b7-7719660e7558"
+    }
+  }
+]

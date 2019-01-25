@@ -1,0 +1,72 @@
+2019-01-25T15:31:42.426Z - normal: Load ~/.CocosCreator/settings.json
+2019-01-25T15:31:42.495Z - normal: Initializing Asset Database
+2019-01-25T15:31:42.497Z - normal: checking language setting...
+2019-01-25T15:31:42.497Z - normal: Language: zh
+2019-01-25T15:31:43.223Z - success: preview server running at http://localhost:7456
+2019-01-25T15:31:43.366Z - success: protocol editor-framework registered
+2019-01-25T15:31:43.366Z - success: protocol app registered
+2019-01-25T15:31:43.367Z - success: protocol theme registered
+2019-01-25T15:31:43.367Z - success: protocol packages registered
+2019-01-25T15:31:43.367Z - success: protocol uuid registerred
+2019-01-25T15:31:43.367Z - success: protocol db registerred
+2019-01-25T15:31:43.367Z - success: protocol thumbnail registerred
+2019-01-25T15:31:43.367Z - success: protocol unpack registerred
+2019-01-25T15:31:43.367Z - success: protocol disable-commonjs registerred
+2019-01-25T15:31:43.512Z - normal: connected!
+2019-01-25T15:31:43.513Z - normal: Check project /Users/panda/StudyWork/GameJam/GGJ19
+2019-01-25T15:31:43.514Z - normal: Initializing project /Users/panda/StudyWork/GameJam/GGJ19
+2019-01-25T15:31:44.258Z - normal: 引擎编译中，首次编译需要较长时间，请稍等。
+2019-01-25T15:31:49.463Z - normal: Initializing Cocos2d
+2019-01-25T15:31:49.955Z - normal: Initializing engine extends
+2019-01-25T15:31:50.073Z - success: asset-db-debugger loaded
+2019-01-25T15:31:50.075Z - success: cocos-package loaded
+2019-01-25T15:31:50.077Z - success: code-editor loaded
+2019-01-25T15:31:50.079Z - success: color-picker loaded
+2019-01-25T15:31:50.170Z - success: fb-audience-network loaded
+2019-01-25T15:31:50.218Z - success: fb-live-stream loaded
+2019-01-25T15:31:50.221Z - success: google-play-instant loaded
+2019-01-25T15:31:50.284Z - success: ipc-debugger loaded
+2019-01-25T15:31:50.285Z - success: jsb-adapter loaded
+2019-01-25T15:31:50.322Z - success: cpk-publish loaded
+2019-01-25T15:31:50.409Z - success: package-manager loaded
+2019-01-25T15:31:50.576Z - success: qqplay-adapter loaded
+2019-01-25T15:31:50.649Z - success: tester loaded
+2019-01-25T15:31:50.712Z - success: ui-grid loaded
+2019-01-25T15:31:50.774Z - success: ui-kit-preview-extra loaded
+2019-01-25T15:31:50.838Z - success: ui-kit-preview loaded
+2019-01-25T15:31:50.896Z - success: ui-kit loaded
+2019-01-25T15:31:50.957Z - success: ui-tree loaded
+2019-01-25T15:31:50.958Z - success: weapp-adapter loaded
+2019-01-25T15:31:51.025Z - success: assets loaded
+2019-01-25T15:31:51.086Z - success: builder loaded
+2019-01-25T15:31:51.146Z - success: console loaded
+2019-01-25T15:31:51.171Z - success: fb-instant-games loaded
+2019-01-25T15:31:51.232Z - success: game-window loaded
+2019-01-25T15:31:51.235Z - success: google-instant-games loaded
+2019-01-25T15:31:51.296Z - success: hierarchy loaded
+2019-01-25T15:31:51.358Z - success: inspector loaded
+2019-01-25T15:31:51.361Z - success: keystore loaded
+2019-01-25T15:31:51.422Z - success: node-library loaded
+2019-01-25T15:31:51.425Z - success: package-asset loaded
+2019-01-25T15:31:51.427Z - success: preferences loaded
+2019-01-25T15:31:51.497Z - success: project-exporter loaded
+2019-01-25T15:31:51.568Z - success: project-importer loaded
+2019-01-25T15:31:51.632Z - success: project-settings loaded
+2019-01-25T15:31:51.694Z - success: scene loaded
+2019-01-25T15:31:51.697Z - success: simulator-debugger loaded
+2019-01-25T15:31:51.699Z - success: sprite-editor loaded
+2019-01-25T15:31:51.762Z - success: store loaded
+2019-01-25T15:31:51.824Z - success: timeline loaded
+2019-01-25T15:31:51.889Z - success: hot-update-tools loaded
+2019-01-25T15:31:51.953Z - success: quick-open loaded
+2019-01-25T15:31:52.064Z - success: unpack-textureatlas loaded
+2019-01-25T15:31:56.305Z - normal: Loading packages
+2019-01-25T15:31:56.310Z - normal: Watching packages
+2019-01-25T15:31:56.553Z - normal: Run Application
+2019-01-25T15:32:02.940Z - error: undefined
+    at Panel.newFrame (/Users/panda/StudyWork/Cocos/fireball/editor-framework/lib/renderer/ui/utils/dock-utils.js:599:21)
+    at Ipc.sendToMain (/Users/panda/StudyWork/Cocos/fireball/editor-framework/lib/renderer/panel.js:86:7)
+    at EventEmitter.ipcRenderer.on.args (/Users/panda/StudyWork/Cocos/fireball/editor-framework/lib/renderer/ipc.js:359:19)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+2019-01-25T15:32:39.155Z - info: shutdown preview server
