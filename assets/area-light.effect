@@ -19,6 +19,14 @@
       type: color4
       value: [0.2, 0.5, 0.5, 1]
     }
+    center: {
+      type: vec3
+      value: [0, 8, 0]
+    }
+    size: {
+      type: float
+      value: 3
+    }
   }
 %}
 
@@ -26,6 +34,7 @@
   #include <cc-global>
   #include <cc-local>
   #include <common-attribute>
+  #include <skinning>
 
   varying vec3 v_worldNormal;
   varying vec3 v_worldPosition;
@@ -33,10 +42,13 @@
 
   void main () {
     vec4 pos = vec4(a_position, 1);
+    vec4 normal = vec4(a_normal, 0);
+
+    SKIN_VERTEX(pos, normal);
 
     v_localPosition = cc_matWorldIT * a_position;
     v_worldPosition = (cc_matWorld * pos).xyz;
-    v_worldNormal = cc_matWorldIT * a_normal;
+    v_worldNormal = cc_matWorldIT * normal.xyz;
 
     gl_Position = cc_matViewProj * cc_matWorld * pos;
   }
@@ -48,6 +60,8 @@
   #include <cc-global>
 
   uniform vec4 diffuseColor;
+  uniform vec3 center;
+  uniform float size;
 
   varying vec3 v_worldNormal;
   varying vec3 v_worldPosition;
@@ -57,17 +71,19 @@
     vec3 N = normalize(v_worldNormal);
     vec3 V = normalize(cc_cameraPos - v_worldPosition);
 
-    // vec3 L = normalize(cross(v_forward, vec3(0, 1, 0)));
-    // vec3 diffuse = color.rgb * (0.2 + max(0.0, dot(N, L)) * 0.8);
-
     vec3 points[4];
-    vec3 up = vec3(0, 1, 0);
-    points[0] = vec3( 3, 8,  3);
-    points[1] = vec3( 3, 8, -3);
-    points[2] = vec3(-3, 8, -3);
-    points[3] = vec3(-3, 8,  3);
-    vec3 diffuse = diffuseColor.rgb * (0.2 + LTC_Evaluate(N, V, v_localPosition, mat3(1), points) * 0.8);
+    points[0] = center + vec3( size, 0,  size);
+    points[1] = center + vec3( size, 0, -size);
+    points[2] = center + vec3(-size, 0, -size);
+    points[3] = center + vec3(-size, 0,  size);
 
+    #if USE_LOCAL_COORDS
+      vec3 L = LTC_Evaluate(N, V, v_localPosition, mat3(1), points);
+    #else
+      vec3 L = LTC_Evaluate(N, V, v_worldPosition, mat3(1), points);
+    #endif
+
+    vec3 diffuse = diffuseColor.rgb * (0.2 + L * 0.8);
     gl_FragColor = LINEAR_TO_OUTPUT_TEXEL(vec4(diffuse, diffuseColor.a));
   }
 }

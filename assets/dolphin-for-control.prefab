@@ -25,7 +25,7 @@
       }
     ],
     "_active": true,
-    "_level": 2,
+    "_level": 1,
     "_components": [],
     "_prefab": {
       "__id__": 69
@@ -601,7 +601,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "ba7234fc-6526-4288-89bd-7d71acfb3615"
+        "__uuid__": "bde68f5f-178a-4b3f-911b-877402f80678"
       }
     ],
     "_mesh": {

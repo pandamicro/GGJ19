@@ -8,7 +8,8 @@
   },
   "_defines": {
     "INPUT_IS_GAMMA": false,
-    "OUTPUT_TO_GAMMA": false
+    "OUTPUT_TO_GAMMA": false,
+    "USE_LOCAL_COORDS": true
   },
   "_props": {}
 }
