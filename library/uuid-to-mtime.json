@@ -635,8 +635,8 @@
     "relativePath": "res/scene.fbx"
   },
   "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
-    "asset": 1548527660127,
-    "meta": 1548527660149,
+    "asset": 1548527744013,
+    "meta": 1548527744031,
     "relativePath": "scene/level.fire"
   },
   "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
@@ -848,5 +848,10 @@
     "asset": 1548527682363,
     "meta": 1548527682500,
     "relativePath": "res/login/play01.png"
+  },
+  "a06c78b3-b71e-4467-ba27-a83888a3f4a2": {
+    "asset": 1548527826608,
+    "meta": 1548527826614,
+    "relativePath": "scene/login.fire"
   }
 }
