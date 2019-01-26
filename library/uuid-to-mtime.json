@@ -490,13 +490,13 @@
     "relativePath": "bloomBlur.effect"
   },
   "f5de4f67-e7c4-4255-a16c-1f291e7e229e": {
-    "asset": 1548515648582,
-    "meta": 1548515648599,
+    "asset": 1548516215478,
+    "meta": 1548516215493,
     "relativePath": "dolphin-for-control.prefab"
   },
   "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
-    "asset": 1548515453909,
-    "meta": 1548515453915,
+    "asset": 1548518260040,
+    "meta": 1548518260045,
     "relativePath": "scene/gameplay_test.fire"
   },
   "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
@@ -559,9 +559,59 @@
     "meta": 1548515356394,
     "relativePath": "scripts/control/CenterCamera.js"
   },
+  "65795499-5ec2-4459-bd41-502b9632a497": {
+    "asset": 1548516022355,
+    "meta": 1548516022362,
+    "relativePath": "dolphin"
+  },
+  "a4988e22-90e8-4fe5-845a-aed64f38a995": {
+    "asset": 1548516033630,
+    "meta": 1548516034241,
+    "relativePath": "dolphin/Dolphin.FBX"
+  },
+  "a202b796-e0f0-4e28-970f-4e5f5c693442": {
+    "asset": 1548516033635,
+    "meta": 1548516034281,
+    "relativePath": "dolphin/Dolphin@idle.FBX"
+  },
+  "dfad682d-bdc0-4a9e-8af0-a762f1d906b3": {
+    "asset": 1548516033635,
+    "meta": 1548516034308,
+    "relativePath": "dolphin/Dolphin@turnRight.FBX"
+  },
+  "ed952c47-dcd9-46f2-b447-a28aa86a05c6": {
+    "asset": 1548516033635,
+    "meta": 1548516034340,
+    "relativePath": "dolphin/Dolphin@turnLeft.FBX"
+  },
+  "43231b5b-827a-4498-913a-f04f80345bfe": {
+    "asset": 1548516033635,
+    "meta": 1548516034359,
+    "relativePath": "dolphin/Dolphin@hit.FBX"
+  },
+  "60d58fd6-48c8-4eef-9d52-b1a77959ad91": {
+    "asset": 1548516033635,
+    "meta": 1548516034388,
+    "relativePath": "dolphin/Dolphin@move.FBX"
+  },
+  "e2a82d6f-54bd-4c63-b5c3-0eb633dfa436": {
+    "asset": 1548518126443,
+    "meta": 1548518126444,
+    "relativePath": "scripts/dolphin"
+  },
   "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
-    "asset": 1548515441453,
-    "meta": 1548515443765,
+    "asset": 1548518147830,
+    "meta": 1548518149891,
     "relativePath": "scripts/control/Movement.js"
+  },
+  "bfe51632-4fe5-4c6d-83cc-5f50f0cfcf46": {
+    "asset": 1548523122642,
+    "meta": 1548523199326,
+    "relativePath": "scripts/dolphin/pilot.js"
+  },
+  "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
+    "asset": 1548523756502,
+    "meta": 1548523760520,
+    "relativePath": "scripts/dolphin/dolphin.js"
   }
 }

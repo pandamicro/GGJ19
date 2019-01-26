@@ -8,26 +8,20 @@
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
-const TORQUE = 40;
-
 cc.Class({
     extends: cc.Component,
 
     properties: {
         speed: 1,
-        target: cc.Node,
+        target: require('../dolphin/pilot'),
         camera: require('./CenterCamera'),
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     start () {
-        this._body = this.target.getComponent(cc.RigidBody);
         this._prevPos = cc.v2();
         this._dir = cc.v2();
-        this._eulerAngles = cc.v3();
-        this._currRot = cc.quat();
-        this._prevRot = cc.quat();
         this._moving = false;
     },
 
@@ -46,7 +40,6 @@ cc.Class({
     touchStart (event) {
         let touch = event.touch;
         this._prevPos.set(touch._point);
-        this._prevRot.set(this.target.quat);
     },
 
     touchMove (event) {
@@ -71,9 +64,7 @@ cc.Class({
 
     update (dt) {
         if (this._moving) {
-            let body = this._body;
-
-            body.linearVelocity = this._dir;
+            this.target.move(this._dir);
             this.camera.updatePos();
         }
     },
