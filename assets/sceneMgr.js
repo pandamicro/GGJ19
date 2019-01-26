@@ -73,4 +73,24 @@ cc.Class({
         this.lerpBoidsColor(this.dark, time);
         this.lerpVignetteColor(0.5, time);
     },
+
+    taichi (time = 1) {
+        this.lerpCameraColor(cc.color('#FFFFFF'), time);
+        this.lerpBoidsColor(cc.color(), time);
+        this.lerpVignetteColor(0.2, time);
+    },
+
+    invTaichi (time = 1) {
+        this.lerpCameraColor(cc.color(), time);
+        this.lerpBoidsColor(cc.color('#FFFFFF'), time);
+        this.lerpVignetteColor(0.2, time);
+    },
+
+    random (time = 1) {
+        const c1 = cc.color(Math.random() * 255, Math.random() * 255, Math.random() * 255, 255);
+        this.lerpCameraColor(c1, time);
+        const c2 = cc.color(Math.random() * 255, Math.random() * 255, Math.random() * 255, 255);
+        this.lerpBoidsColor(c2, time);
+        this.lerpVignetteColor(Math.random() * 0.5, time);
+    }
 });

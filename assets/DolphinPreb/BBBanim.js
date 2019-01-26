@@ -9,13 +9,16 @@ cc.Class({
         sprite: cc.Node,
     },
 
+    onLoad () {
+        this.sprite.opacity = 0;
+    },
+
     start () {
-        this.translate = new cc.MoveBy(2, cc.v3(0, 200, 0));
-        this.scale = new cc.ScaleTo(2, 2);
-        this.opacity = new cc.FadeOut(2);
+        this.translate = new cc.MoveBy(1, cc.v3(0, 0, 500));
+        this.scale = new cc.ScaleTo(1, 2);
+        this.opacity = new cc.FadeOut(1);
         this.nextWave = cc.director._totalFrames
             + random(this.minInterval, this.maxInterval) * 60;
-        this.play();
     },
 
     play () {

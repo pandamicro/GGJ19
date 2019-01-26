@@ -64,6 +64,11 @@ cc.Class({
                 this.range.y ? random(-1, 1) : 0,
                 this.range.z ? random(-1, 1) : 0);
             vec3.scale(m.vel, m.vel, this.maxVelocity);
+            const anim = m.getComponent(cc.SkeletonAnimation);
+            setTimeout(() => anim.play(), Math.random() * 1000);
+            // not working!
+            // const t = anim.defaultClip.duration;
+            // anim.setCurrentTime(Math.random() * t);
             this.nodes.push(m);
         }
         this.alignment = cc.v3(); this.alignment.active = false;

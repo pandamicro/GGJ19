@@ -1,416 +1,77 @@
-2019-01-26T17:49:25.290Z - normal: Load ~/.CocosCreator/settings.json
-2019-01-26T17:49:26.537Z - normal: Initializing Asset Database
-2019-01-26T17:49:26.552Z - normal: checking language setting...
-2019-01-26T17:49:26.552Z - normal: Language: en
-2019-01-26T17:49:28.188Z - success: preview server running at http://localhost:7456
-2019-01-26T17:49:28.193Z - success: protocol editor-framework registered
-2019-01-26T17:49:28.194Z - success: protocol app registered
-2019-01-26T17:49:28.194Z - success: protocol theme registered
-2019-01-26T17:49:28.194Z - success: protocol packages registered
-2019-01-26T17:49:28.195Z - success: protocol uuid registerred
-2019-01-26T17:49:28.195Z - success: protocol db registerred
-2019-01-26T17:49:28.195Z - success: protocol thumbnail registerred
-2019-01-26T17:49:28.195Z - success: protocol unpack registerred
-2019-01-26T17:49:28.196Z - success: protocol disable-commonjs registerred
-2019-01-26T17:49:28.419Z - normal: connected!
-2019-01-26T17:49:28.421Z - normal: Check project D:\GGJ19
-2019-01-26T17:49:28.423Z - normal: Initializing project D:\GGJ19
-2019-01-26T17:49:30.106Z - normal: Initializing Cocos2d
-2019-01-26T17:49:31.675Z - normal: Initializing engine extends
-2019-01-26T17:49:31.724Z - success: asset-db-debugger loaded
-2019-01-26T17:49:31.734Z - success: code-editor loaded
-2019-01-26T17:49:31.740Z - success: color-picker loaded
-2019-01-26T17:49:31.982Z - success: fb-audience-network loaded
-2019-01-26T17:49:32.182Z - success: fb-live-stream loaded
-2019-01-26T17:49:32.188Z - success: google-play-instant loaded
-2019-01-26T17:49:32.197Z - success: huawei-runtime loaded
-2019-01-26T17:49:32.198Z - success: jsb-adapter loaded
-2019-01-26T17:49:32.206Z - success: oppo-runtime loaded
-2019-01-26T17:49:32.212Z - success: package-manager loaded
-2019-01-26T17:49:32.475Z - success: qqplay-adapter loaded
-2019-01-26T17:49:32.479Z - success: runtime-dev-tools loaded
-2019-01-26T17:49:32.487Z - success: sdkbox loaded
-2019-01-26T17:49:32.492Z - success: tester loaded
-2019-01-26T17:49:32.497Z - success: ui-grid loaded
-2019-01-26T17:49:32.500Z - success: ui-kit-preview-extra loaded
-2019-01-26T17:49:32.503Z - success: ui-kit-preview loaded
-2019-01-26T17:49:32.507Z - success: ui-kit loaded
-2019-01-26T17:49:32.509Z - success: ui-tree loaded
-2019-01-26T17:49:32.517Z - success: vivo-runtime loaded
-2019-01-26T17:49:32.519Z - success: weapp-adapter loaded
-2019-01-26T17:49:32.618Z - success: assets loaded
-2019-01-26T17:49:32.621Z - success: builder loaded
-2019-01-26T17:49:33.224Z - success: cocos-services loaded
-2019-01-26T17:49:33.232Z - success: console loaded
-2019-01-26T17:49:33.302Z - success: fb-instant-games loaded
-2019-01-26T17:49:33.310Z - success: game-window loaded
-2019-01-26T17:49:33.313Z - success: google-instant-games loaded
-2019-01-26T17:49:33.323Z - success: hierarchy loaded
-2019-01-26T17:49:33.327Z - success: inspector loaded
-2019-01-26T17:49:33.330Z - success: keystore loaded
-2019-01-26T17:49:33.338Z - success: node-library loaded
-2019-01-26T17:49:33.340Z - success: package-asset loaded
-2019-01-26T17:49:33.342Z - success: preferences loaded
-2019-01-26T17:49:33.345Z - success: project-exporter loaded
-2019-01-26T17:49:33.350Z - success: project-importer loaded
-2019-01-26T17:49:33.353Z - success: project-settings loaded
-2019-01-26T17:49:33.360Z - success: scene loaded
-2019-01-26T17:49:33.363Z - success: simulator-debugger loaded
-2019-01-26T17:49:33.372Z - success: sprite-editor loaded
-2019-01-26T17:49:33.379Z - success: store loaded
-2019-01-26T17:49:33.388Z - success: timeline loaded
-2019-01-26T17:49:35.686Z - info: Cocos Services load base data!
-2019-01-26T17:49:45.534Z - failed: [db-task][init] uuid collision, the uuid for D:\GGJ19\assets\DolphinPreb\Dolphin.prefab is already in used by D:\GGJ19\assets\Dolphin.prefab. Assigning a new uuid.
-2019-01-26T17:49:50.505Z - normal: Loading packages
-2019-01-26T17:49:50.515Z - normal: Watching packages
-2019-01-26T17:49:51.564Z - normal: Run Application
-2019-01-26T18:00:16.123Z - error: area-light : Failed to compile vs 0 (ln 189): 
- 'normal' : undeclared identifier: 
-      SKIN_VERTEX(pos, normal);
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:00:16.127Z - error: area-light : Failed to compile vs 0 (ln 189): 
- 'SKIN_VERTEX' : no matching overloaded function found: 
-      SKIN_VERTEX(pos, normal);
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:01.955Z - error: area-light : Failed to compile vs 0 (ln 189): 
- 'normal' : undeclared identifier: 
-      SKIN_VERTEX(pos, normal);
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:01.960Z - error: area-light : Failed to compile vs 0 (ln 189): 
- 'SKIN_VERTEX' : no matching overloaded function found: 
-      SKIN_VERTEX(pos, normal);
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:03.218Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:03.219Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:03.219Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:14.902Z - warn: Failed to regen property cc.Vec4: type not registered.
-2019-01-26T18:02:14.984Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:14.984Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:02:14.985Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:04:45.103Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ19\assets\area-light.effect, message: TypeError: Cannot read property 'toUpperCase' of undefined
-    at buildEffectJSON (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\cocos2d\renderer\build\shdc-lib.js:388:46)
-    at Object.buildEffect (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\cocos2d\renderer\build\shdc-lib.js:437:12)
-    at module.exports.import (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\share\assets\meta\effect.js:1:700)
-    at i.series.t (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\asset-db\lib\tasks.js:1:4018)
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\node_modules\async\lib\async.js:718:13
-    at iterate (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\node_modules\async\lib\async.js:262:13)
-    at async.forEachOfSeries.async.eachOfSeries (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\node_modules\async\lib\async.js:281:9)
-    at _parallel (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\node_modules\async\lib\async.js:717:9)
-    at Object.async.series (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\node_modules\async\lib\async.js:739:9)
-    at v (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\asset-db\lib\tasks.js:1:3952)
-2019-01-26T18:05:06.028Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.030Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.030Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.450Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.450Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.450Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.919Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.920Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:06.920Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:11.946Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:11.947Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:11.949Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:12.434Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:12.435Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:12.435Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:39.218Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '*' : wrong operand types - no operation '*' exists that takes a left-hand operand of type 'uniform highp 3X3 matrix of float' and a right operand of type 'highp 4-component vector of float' (or there is no acceptable conversion): 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:39.219Z - error: area-light : Failed to compile vs 0 (ln 194): 
- '=' : dimension mismatch: 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:05:39.220Z - error: area-light : Failed to compile vs 0 (ln 194): 
- 'assign' : cannot convert from 'uniform highp 3X3 matrix of float' to 'varying highp 3-component vector of float': 
-      v_worldNormal = cc_matWorldIT * normal;
-    at D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:206:36
-    at Array.forEach (native)
-    at ProgramLib.getProgram (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\program-lib.js:200:36)
-    at ForwardRenderer._draw (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:486:54)
-    at ForwardRenderer._drawItems (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:281:38)
-    at ForwardRenderer._opaqueStage (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:306:30)
-    at ForwardRenderer._render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\core\base-renderer.js:395:29)
-    at ForwardRenderer.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\renderer\renderers\forward-renderer.js:127:34)
-    at Object.render (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\renderer\index.js:122:35)
-2019-01-26T18:10:39.205Z - info: Only the prefab node "dolphin-for-control" and its child nodes are saved.
-2019-01-26T18:14:56.936Z - warn: Failed to regen property cc.Vec4: type not registered.
+2019-01-26T18:18:37.641Z - normal: Load ~/.CocosCreator/settings.json
+2019-01-26T18:18:38.960Z - normal: Initializing Asset Database
+2019-01-26T18:18:38.974Z - normal: checking language setting...
+2019-01-26T18:18:38.975Z - normal: Language: en
+2019-01-26T18:18:42.916Z - success: preview server running at http://localhost:7456
+2019-01-26T18:18:42.923Z - success: protocol editor-framework registered
+2019-01-26T18:18:42.924Z - success: protocol app registered
+2019-01-26T18:18:42.924Z - success: protocol theme registered
+2019-01-26T18:18:42.924Z - success: protocol packages registered
+2019-01-26T18:18:42.925Z - success: protocol uuid registerred
+2019-01-26T18:18:42.925Z - success: protocol db registerred
+2019-01-26T18:18:42.925Z - success: protocol thumbnail registerred
+2019-01-26T18:18:42.925Z - success: protocol unpack registerred
+2019-01-26T18:18:42.925Z - success: protocol disable-commonjs registerred
+2019-01-26T18:18:43.161Z - normal: connected!
+2019-01-26T18:18:43.163Z - normal: Check project D:\GGJ19
+2019-01-26T18:18:43.166Z - normal: Initializing project D:\GGJ19
+2019-01-26T18:18:45.455Z - normal: Initializing Cocos2d
+2019-01-26T18:18:53.038Z - normal: Initializing engine extends
+2019-01-26T18:18:53.147Z - success: asset-db-debugger loaded
+2019-01-26T18:18:53.186Z - success: code-editor loaded
+2019-01-26T18:18:53.195Z - success: color-picker loaded
+2019-01-26T18:18:53.578Z - success: fb-audience-network loaded
+2019-01-26T18:18:53.766Z - success: fb-live-stream loaded
+2019-01-26T18:18:53.800Z - success: google-play-instant loaded
+2019-01-26T18:18:53.911Z - success: huawei-runtime loaded
+2019-01-26T18:18:53.917Z - success: jsb-adapter loaded
+2019-01-26T18:18:53.983Z - success: oppo-runtime loaded
+2019-01-26T18:18:54.025Z - success: package-manager loaded
+2019-01-26T18:18:54.699Z - success: qqplay-adapter loaded
+2019-01-26T18:18:54.722Z - success: runtime-dev-tools loaded
+2019-01-26T18:18:54.764Z - success: sdkbox loaded
+2019-01-26T18:18:54.775Z - success: tester loaded
+2019-01-26T18:18:54.788Z - success: ui-grid loaded
+2019-01-26T18:18:54.805Z - success: ui-kit-preview-extra loaded
+2019-01-26T18:18:54.817Z - success: ui-kit-preview loaded
+2019-01-26T18:18:54.834Z - success: ui-kit loaded
+2019-01-26T18:18:54.856Z - success: ui-tree loaded
+2019-01-26T18:18:54.914Z - success: vivo-runtime loaded
+2019-01-26T18:18:54.917Z - success: weapp-adapter loaded
+2019-01-26T18:18:55.043Z - success: assets loaded
+2019-01-26T18:18:55.047Z - success: builder loaded
+2019-01-26T18:18:56.028Z - success: cocos-services loaded
+2019-01-26T18:18:56.035Z - success: console loaded
+2019-01-26T18:18:56.108Z - success: fb-instant-games loaded
+2019-01-26T18:18:56.115Z - success: game-window loaded
+2019-01-26T18:18:56.119Z - success: google-instant-games loaded
+2019-01-26T18:18:56.130Z - success: hierarchy loaded
+2019-01-26T18:18:56.137Z - success: inspector loaded
+2019-01-26T18:18:56.149Z - success: keystore loaded
+2019-01-26T18:18:56.160Z - success: node-library loaded
+2019-01-26T18:18:56.164Z - success: package-asset loaded
+2019-01-26T18:18:56.167Z - success: preferences loaded
+2019-01-26T18:18:56.170Z - success: project-exporter loaded
+2019-01-26T18:18:56.182Z - success: project-importer loaded
+2019-01-26T18:18:56.186Z - success: project-settings loaded
+2019-01-26T18:18:56.194Z - success: scene loaded
+2019-01-26T18:18:56.197Z - success: simulator-debugger loaded
+2019-01-26T18:18:56.199Z - success: sprite-editor loaded
+2019-01-26T18:18:56.208Z - success: store loaded
+2019-01-26T18:18:56.226Z - success: timeline loaded
+2019-01-26T18:19:00.171Z - info: Cocos Services load base data!
+2019-01-26T18:19:14.804Z - failed: [db-task][init] uuid collision, the uuid for D:\GGJ19\assets\DolphinPreb\Dolphin.prefab is already in used by D:\GGJ19\assets\Dolphin.prefab. Assigning a new uuid.
+2019-01-26T18:19:25.548Z - normal: Loading packages
+2019-01-26T18:19:25.557Z - normal: Watching packages
+2019-01-26T18:19:26.625Z - normal: Run Application
+2019-01-26T18:33:52.012Z - info: Only the prefab node "Dolphin" and its child nodes are saved.
+2019-01-26T18:35:04.437Z - info: Only the prefab node "Dolphin" and its child nodes are saved.
+2019-01-26T18:44:51.489Z - info: Only the prefab node "Dolphin-for-boids" and its child nodes are saved.
+2019-01-26T18:46:41.397Z - error: The timeline replication attribute has an error: cc.Vec3
+    at window.onerror (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\lib\windows\static\script\launch.js:351:24)
+2019-01-26T18:46:45.694Z - error: The timeline replication attribute has an error: cc.Vec3
+    at window.onerror (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\lib\windows\static\script\launch.js:351:24)
+2019-01-26T18:46:54.219Z - error: The timeline replication attribute has an error: cc.Vec3
+    at window.onerror (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\lib\windows\static\script\launch.js:351:24)
+2019-01-26T18:47:55.496Z - info: Only the prefab node "Dolphin-for-boids" and its child nodes are saved.
+2019-01-26T19:06:46.334Z - info: Only the prefab node "Dolphin-for-boids" and its child nodes are saved.
