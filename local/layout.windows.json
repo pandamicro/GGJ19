@@ -19,7 +19,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 459.5625,
+                "height": 460,
                 "type": "panel",
                 "width": 307
               },
@@ -28,7 +28,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 508.4375,
+                "height": 508,
                 "type": "panel",
                 "width": 307
               }
@@ -44,17 +44,17 @@
                 "children": [
                   "scene"
                 ],
-                "height": 508.4375,
+                "height": 508,
                 "type": "panel",
                 "width": 976
               },
               {
-                "active": 1,
+                "active": 0,
                 "children": [
                   "console",
                   "timeline"
                 ],
-                "height": 459.5625,
+                "height": 460,
                 "type": "panel",
                 "width": 976
               }

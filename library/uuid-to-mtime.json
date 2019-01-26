@@ -609,11 +609,6 @@
     "meta": 1548524833537,
     "relativePath": "scripts/dolphin/pilot.js"
   },
-  "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
-    "asset": 1548523860928,
-    "meta": 1548524833529,
-    "relativePath": "scripts/dolphin/dolphin.js"
-  },
   "3b9235c0-bd86-41b6-9e4b-632cad14bf92": {
     "asset": 1548524810194,
     "meta": 1548524810194,
@@ -628,5 +623,25 @@
     "asset": 1548524810195,
     "meta": 1548524833454,
     "relativePath": "DolphinPreb/BBBBB.png"
+  },
+  "8dd6be15-5a09-4b25-8d58-a9a84806c7ba": {
+    "asset": 1548524927926,
+    "meta": 1548524927927,
+    "relativePath": "res"
+  },
+  "60e4a9c5-f52d-4bad-b38e-a57fa14ddc80": {
+    "asset": 1548525044444,
+    "meta": 1548525044957,
+    "relativePath": "res/scene.fbx"
+  },
+  "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
+    "asset": 1548526061958,
+    "meta": 1548526061977,
+    "relativePath": "scene/level.fire"
+  },
+  "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
+    "asset": 1548526558563,
+    "meta": 1548526560880,
+    "relativePath": "scripts/dolphin/dolphin.js"
   }
 }

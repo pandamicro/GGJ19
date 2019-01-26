@@ -24,6 +24,7 @@ cc.Class({
         this.pt0 = cc.v2();
         this.pt1 = cc.v2();
         this.pt2 = cc.v2();
+        this.pt = cc.v2();
         this._accum = 0;
         this._turn = 0;
         this.ani.play('move');
@@ -36,10 +37,17 @@ cc.Class({
             let pt0 = this.pt0;
             let pt1 = this.pt1;
             let pt2 = this.pt2;
+            this.pt.x = this.node.parent.x;
+            this.pt.y = this.node.parent.y;
 
             let check = (pt0.x - pt2.x) * (pt1.y - pt2.y) - (pt0.y - pt2.y) * (pt1.x - pt2.x);
-            if (this._turn !== 0 && Math.abs(check) <= 0.1) {
-                this.scheduleOnce(this.turnMove, 1.5);
+            if (this._turn !== 0 && Math.abs(check) <= 0.2) {
+                if (this.pt.sub(pt2).mag() < 1) {
+                    this.scheduleOnce(this.turnMove, 0.5);
+                }
+                else {
+                    this.turnMove();
+                }
                 this._turn = 0;
             }
             else {
@@ -60,8 +68,7 @@ cc.Class({
 
             pt0.set(pt1);
             pt1.set(pt2);
-            pt2.x = this.node.parent.x;
-            pt2.y = this.node.parent.y;
+            pt2.set(this.pt);
         }
     },
 
