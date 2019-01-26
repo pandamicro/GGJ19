@@ -1,0 +1,69 @@
+%{
+  techniques: [
+    {
+      passes: [
+        {
+          vert: vs
+          frag: fs
+          cullMode: none
+          blend: true
+        }
+      ]
+      layer: 0
+    }
+  ]
+  properties: {
+    texture: {
+      type: sampler2D
+      value: null
+    }
+  }
+%}
+
+%% vs {
+  uniform mat4 cc_matViewProj;
+  uniform mat4 cc_matWorld;
+
+  attribute vec3 a_position;
+  attribute mediump vec2 a_uv0;
+  varying mediump vec2 v_uv0;
+
+  void main () {
+    mat4 mvp = cc_matViewProj * cc_matWorld;
+    v_uv0 = a_uv0;
+    gl_Position = mvp * vec4(a_position, 1);
+  }
+}
+
+%% fs {
+  uniform sampler2D texture;
+  uniform vec4 params; // tex_offset.xy, horizontal, weights[0]
+  uniform vec4 weights;
+
+  varying mediump vec2 v_uv0;
+
+  void main () {
+    vec2 uv = vec2(v_uv0.x, 1.0 - v_uv0.y);
+    vec3 result = texture2D(texture, uv).rgb * params.w; // current fragment's contribution
+    if (params.z > 0.5) {
+      result += texture2D(texture, uv + vec2(params.x * 2.0, 0.0)).rgb * weights.x;
+      result += texture2D(texture, uv - vec2(params.x * 2.0, 0.0)).rgb * weights.x;
+      result += texture2D(texture, uv + vec2(params.x * 4.0, 0.0)).rgb * weights.y;
+      result += texture2D(texture, uv - vec2(params.x * 4.0, 0.0)).rgb * weights.y;
+      result += texture2D(texture, uv + vec2(params.x * 6.0, 0.0)).rgb * weights.z;
+      result += texture2D(texture, uv - vec2(params.x * 6.0, 0.0)).rgb * weights.z;
+      result += texture2D(texture, uv + vec2(params.x * 8.0, 0.0)).rgb * weights.w;
+      result += texture2D(texture, uv - vec2(params.x * 8.0, 0.0)).rgb * weights.w;
+    } else {
+      result += texture2D(texture, uv + vec2(0.0, params.y * 2.0)).rgb * weights.x;
+      result += texture2D(texture, uv - vec2(0.0, params.y * 2.0)).rgb * weights.x;
+      result += texture2D(texture, uv + vec2(0.0, params.y * 4.0)).rgb * weights.y;
+      result += texture2D(texture, uv - vec2(0.0, params.y * 4.0)).rgb * weights.y;
+      result += texture2D(texture, uv + vec2(0.0, params.y * 6.0)).rgb * weights.z;
+      result += texture2D(texture, uv - vec2(0.0, params.y * 6.0)).rgb * weights.z;
+      result += texture2D(texture, uv + vec2(0.0, params.y * 8.0)).rgb * weights.w;
+      result += texture2D(texture, uv - vec2(0.0, params.y * 8.0)).rgb * weights.w;
+    }
+    gl_FragColor = vec4(result, 1.0);
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ver": "1.0.9",
+  "uuid": "00f870d5-638a-4ab7-b920-57d4a7f21aa4",
+  "compiledShaders": [
+    {
+      "vert": "#define _IS_VERT_SHADER 1\n\n  uniform mat4 cc_matViewProj;\n  uniform mat4 cc_matWorld;\n\n  attribute vec3 a_position;\n  attribute mediump vec2 a_uv0;\n  varying mediump vec2 v_uv0;\n\n  void main () {\n    mat4 mvp = cc_matViewProj * cc_matWorld;\n    v_uv0 = a_uv0;\n    gl_Position = mvp * vec4(a_position, 1);\n  }\n\n",
+      "frag": "#define _IS_FRAG_SHADER 1\n\n  uniform sampler2D texture;\n  uniform vec4 params; \n  uniform vec4 weights;\n\n  varying mediump vec2 v_uv0;\n\n  void main () {\n    vec2 uv = vec2(v_uv0.x, 1.0 - v_uv0.y);\n    vec3 result = texture2D(texture, uv).rgb * params.w; \n    if (params.z > 0.5) {\n      result += texture2D(texture, uv + vec2(params.x * 2.0, 0.0)).rgb * weights.x;\n      result += texture2D(texture, uv - vec2(params.x * 2.0, 0.0)).rgb * weights.x;\n      result += texture2D(texture, uv + vec2(params.x * 4.0, 0.0)).rgb * weights.y;\n      result += texture2D(texture, uv - vec2(params.x * 4.0, 0.0)).rgb * weights.y;\n      result += texture2D(texture, uv + vec2(params.x * 6.0, 0.0)).rgb * weights.z;\n      result += texture2D(texture, uv - vec2(params.x * 6.0, 0.0)).rgb * weights.z;\n      result += texture2D(texture, uv + vec2(params.x * 8.0, 0.0)).rgb * weights.w;\n      result += texture2D(texture, uv - vec2(params.x * 8.0, 0.0)).rgb * weights.w;\n    } else {\n      result += texture2D(texture, uv + vec2(0.0, params.y * 2.0)).rgb * weights.x;\n      result += texture2D(texture, uv - vec2(0.0, params.y * 2.0)).rgb * weights.x;\n      result += texture2D(texture, uv + vec2(0.0, params.y * 4.0)).rgb * weights.y;\n      result += texture2D(texture, uv - vec2(0.0, params.y * 4.0)).rgb * weights.y;\n      result += texture2D(texture, uv + vec2(0.0, params.y * 6.0)).rgb * weights.z;\n      result += texture2D(texture, uv - vec2(0.0, params.y * 6.0)).rgb * weights.z;\n      result += texture2D(texture, uv + vec2(0.0, params.y * 8.0)).rgb * weights.w;\n      result += texture2D(texture, uv - vec2(0.0, params.y * 8.0)).rgb * weights.w;\n    }\n    gl_FragColor = vec4(result, 1.0);\n  }\n\n"
+    }
+  ],
+  "subMetas": {}
+}

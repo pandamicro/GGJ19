@@ -2,7 +2,6 @@
 %{
   techniques: [
     {
-      stages: [ 'transparent' ]
       passes: [
         {
           vert: vs

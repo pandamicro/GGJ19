@@ -1,0 +1,55 @@
+%{
+  techniques: [
+    {
+      passes: [
+        {
+          vert: vs
+          frag: fs
+          cullMode: none
+          blend: true
+        }
+      ]
+      layer: 0
+    }
+  ]
+  properties: {
+    origin: {
+      type: sampler2D
+      value: null
+    }
+    blurred: {
+      type: sampler2D
+      value: null
+    }
+  }
+%}
+
+%% vs {
+  uniform mat4 cc_matViewProj;
+  uniform mat4 cc_matWorld;
+
+  attribute vec3 a_position;
+  attribute mediump vec2 a_uv0;
+  varying mediump vec2 v_uv0;
+
+  void main () {
+    mat4 mvp = cc_matViewProj * cc_matWorld;
+    v_uv0 = a_uv0;
+    gl_Position = mvp * vec4(a_position, 1);
+  }
+}
+
+%% fs {
+  uniform sampler2D origin;
+  uniform sampler2D blurred;
+  varying mediump vec2 v_uv0;
+  
+  #include <encodings>
+
+  void main () {
+    vec3 o = texture2D(origin, vec2(v_uv0.x, 1.0 - v_uv0.y)).rgb;
+    o += texture2D(blurred, vec2(v_uv0.x, 1.0 - v_uv0.y)).rgb;
+    o /= o + vec3(1.0);
+    gl_FragColor = LINEAR_TO_OUTPUT_TEXEL(vec4(o, 1));
+  }
+}
