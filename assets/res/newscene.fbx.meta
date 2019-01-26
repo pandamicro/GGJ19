@@ -1,0 +1,324 @@
+{
+  "ver": "1.0.6",
+  "uuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+  "scaleFactor": 1,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.0",
+      "uuid": "4dd86a71-e16d-4ce2-9413-c3ec2dab26c2",
+      "subMetas": {}
+    },
+    "pPlane1.mesh": {
+      "ver": "1.0.0",
+      "uuid": "9bc000ff-6310-41d2-ada1-6949a68e42d1",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 0,
+      "verts": 1406,
+      "tris": 2664,
+      "submeshes": 1,
+      "minPos": {
+        "x": -0.0102169178426266,
+        "y": -0.000407424260629341,
+        "z": -0.0102169178426266
+      },
+      "maxPos": {
+        "x": 0.0102169197052717,
+        "y": 0.000221573049202561,
+        "z": 0.0102169178426266
+      },
+      "subMetas": {}
+    },
+    "pCube7.mesh": {
+      "ver": "1.0.0",
+      "uuid": "b21f3166-189b-4d73-bf60-ff20f96e523f",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 1,
+      "verts": 522,
+      "tris": 440,
+      "submeshes": 1,
+      "minPos": {
+        "x": -269.262329101562,
+        "y": 1.1136132478714,
+        "z": -264.791870117188
+      },
+      "maxPos": {
+        "x": 261.534881591797,
+        "y": 44.2779769897461,
+        "z": 259.355255126953
+      },
+      "subMetas": {}
+    },
+    "pCylinder8.mesh": {
+      "ver": "1.0.0",
+      "uuid": "f971ed60-b8d9-469c-9b80-aa5daad92b8d",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 2,
+      "verts": 3071,
+      "tris": 1771,
+      "submeshes": 1,
+      "minPos": {
+        "x": -111.799018859863,
+        "y": -19.7411231994629,
+        "z": -116.972564697266
+      },
+      "maxPos": {
+        "x": 168.507354736328,
+        "y": 26.767692565918,
+        "z": 90.7032852172852
+      },
+      "subMetas": {}
+    },
+    "pCube10.mesh": {
+      "ver": "1.0.0",
+      "uuid": "036eb818-9d52-4223-825b-97b5096a3d30",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 3,
+      "verts": 1006,
+      "tris": 852,
+      "submeshes": 1,
+      "minPos": {
+        "x": -260.118072509766,
+        "y": -11.3081493377686,
+        "z": -246.197723388672
+      },
+      "maxPos": {
+        "x": 261.293975830078,
+        "y": 26.8126602172852,
+        "z": 246.481246948242
+      },
+      "subMetas": {}
+    },
+    "Mesh53.mesh": {
+      "ver": "1.0.0",
+      "uuid": "2f267aaa-7c00-4df1-99fb-943e0c6a38ca",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 4,
+      "verts": 7430,
+      "tris": 3089,
+      "submeshes": 1,
+      "minPos": {
+        "x": -87.9852752685547,
+        "y": -20.5989112854004,
+        "z": -111.332984924316
+      },
+      "maxPos": {
+        "x": 143.805236816406,
+        "y": 24.8466091156006,
+        "z": 134.26643371582
+      },
+      "subMetas": {}
+    },
+    "Mesh54.mesh": {
+      "ver": "1.0.0",
+      "uuid": "4ae8d470-4321-46c6-a4d2-cd7ce633aed1",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 5,
+      "verts": 1860,
+      "tris": 974,
+      "submeshes": 1,
+      "minPos": {
+        "x": -106.170166015625,
+        "y": -18.1546840667725,
+        "z": -103.864234924316
+      },
+      "maxPos": {
+        "x": 61.0866355895996,
+        "y": 8.78842830657959,
+        "z": 56.8840866088867
+      },
+      "subMetas": {}
+    },
+    "Mesh55.mesh": {
+      "ver": "1.0.0",
+      "uuid": "22280dbc-cdc9-4ab6-ad19-92d02f7d963e",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 6,
+      "verts": 10368,
+      "tris": 5184,
+      "submeshes": 1,
+      "minPos": {
+        "x": -102.00122833252,
+        "y": -23.7977485656738,
+        "z": -121.24600982666
+      },
+      "maxPos": {
+        "x": 155.667144775391,
+        "y": 23.4254779815674,
+        "z": 130.043807983398
+      },
+      "subMetas": {}
+    },
+    "pCube11.mesh": {
+      "ver": "1.0.0",
+      "uuid": "29f4f70c-0bc3-46d9-9d11-a628cc82d84d",
+      "modelUuid": "d779077c-c89d-4432-9ea1-858dadb40ce7",
+      "meshID": 7,
+      "verts": 5745,
+      "tris": 2732,
+      "submeshes": 1,
+      "minPos": {
+        "x": -91.5666885375977,
+        "y": -20.6988658905029,
+        "z": -43.1797142028809
+      },
+      "maxPos": {
+        "x": 121.600212097168,
+        "y": 9.02514553070068,
+        "z": 131.483200073242
+      },
+      "subMetas": {}
+    },
+    "newscene.prefab": {
+      "ver": "1.0.0",
+      "uuid": "4bfc1994-3fe7-4050-8205-451300f32012",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_rotationX": 0,
+          "_rotationY": 0,
+          "_scaleX": 1,
+          "_scaleY": 1,
+          "_position": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "subMetas": {}
+    },
+    "dimian.mtl": {
+      "ver": "1.0.1",
+      "uuid": "7ad61626-ad4c-4973-900f-3fb70f3ff879",
+      "name": "dimian.mtl",
+      "subMetas": {}
+    },
+    "a3.mtl": {
+      "ver": "1.0.1",
+      "uuid": "0e1a3243-4f43-442e-8fe6-66cc8b6cb1e7",
+      "name": "a3.mtl",
+      "subMetas": {}
+    },
+    "dodge.mtl": {
+      "ver": "1.0.1",
+      "uuid": "9d41f3fc-dbbf-4c22-bf2f-fea68cee049b",
+      "name": "dodge.mtl",
+      "subMetas": {}
+    },
+    "a2.mtl": {
+      "ver": "1.0.1",
+      "uuid": "168c0de2-144a-49b8-9d06-2df30e1d2de7",
+      "name": "a2.mtl",
+      "subMetas": {}
+    },
+    "a4.mtl": {
+      "ver": "1.0.1",
+      "uuid": "b1ba40a0-3870-415c-ab23-8bd398633878",
+      "name": "a4.mtl",
+      "subMetas": {}
+    },
+    "a5.mtl": {
+      "ver": "1.0.1",
+      "uuid": "dbad7699-a56d-4329-9aff-edae3a6f91f6",
+      "name": "a5.mtl",
+      "subMetas": {}
+    },
+    "a6.mtl": {
+      "ver": "1.0.1",
+      "uuid": "a0f83f07-4585-4b4f-89d7-8788a4455748",
+      "name": "a6.mtl",
+      "subMetas": {}
+    },
+    "a7.mtl": {
+      "ver": "1.0.1",
+      "uuid": "0c257971-c97e-4d94-8d3a-ec4b672431fc",
+      "name": "a7.mtl",
+      "subMetas": {}
+    }
+  }
+}

@@ -620,8 +620,8 @@
     "relativePath": "res/scene.fbx"
   },
   "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
-    "asset": 1548529834209,
-    "meta": 1548529834225,
+    "asset": 1548530315846,
+    "meta": 1548530315863,
     "relativePath": "scene/level.fire"
   },
   "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
@@ -853,5 +853,10 @@
     "asset": 1548529780089,
     "meta": 1548529783150,
     "relativePath": "scripts/physics/physics-world.js"
+  },
+  "d779077c-c89d-4432-9ea1-858dadb40ce7": {
+    "asset": 1548530004216,
+    "meta": 1548530004781,
+    "relativePath": "res/newscene.fbx"
   }
 }
