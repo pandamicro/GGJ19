@@ -385,7 +385,7 @@
     "relativePath": "resources/materials/builtin-spine.mtl"
   },
   "0f91c58f-b646-4619-b20e-cf7c55786d0e": {
-    "asset": 1548434061447,
+    "asset": 1548523860927,
     "meta": 1548430342744,
     "relativePath": "scene"
   },
@@ -405,12 +405,12 @@
     "relativePath": "Dolphin.fbx"
   },
   "045afd92-b3ea-4945-a902-6a3026637a28": {
-    "asset": 1548433947803,
+    "asset": 1548523860927,
     "meta": 1548432258656,
     "relativePath": "scripts"
   },
   "83f2c3ed-3e33-42e0-aa88-0f910d37afbd": {
-    "asset": 1548433922661,
+    "asset": 1548523860927,
     "meta": 1548433862224,
     "relativePath": "scripts/control"
   },
@@ -490,29 +490,29 @@
     "relativePath": "bloomBlur.effect"
   },
   "f5de4f67-e7c4-4255-a16c-1f291e7e229e": {
-    "asset": 1548516215478,
-    "meta": 1548516215493,
+    "asset": 1548524873957,
+    "meta": 1548524873965,
     "relativePath": "dolphin-for-control.prefab"
   },
   "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
-    "asset": 1548518260040,
-    "meta": 1548518260045,
+    "asset": 1548523860928,
+    "meta": 1548524833382,
     "relativePath": "scene/gameplay_test.fire"
   },
   "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
-    "asset": 1548510166439,
-    "meta": 1548510189340,
+    "asset": 1548523860871,
+    "meta": 1548524833384,
     "relativePath": "scene/test.fire"
   },
   "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
-    "asset": 1548510166436,
-    "meta": 1548510189496,
+    "asset": 1548523860870,
+    "meta": 1548524832980,
     "relativePath": "boids.js"
   },
   "356f5518-4b86-4c56-82bd-6aa6e759b282": {
-    "asset": 1548510166436,
-    "meta": 1548510189559,
-    "relativePath": "Dolphin.prefab"
+    "asset": 1548524810194,
+    "meta": 1548524833368,
+    "relativePath": "DolphinPreb/Dolphin.prefab"
   },
   "94c2c9f1-e9bc-42f5-b7fb-b9c0ea50bd23": {
     "asset": 1548510166435,
@@ -520,7 +520,7 @@
     "relativePath": "postProcessing.js"
   },
   "9fdf95bb-e33d-490c-b195-18ebee1301f1": {
-    "asset": 1548510166438,
+    "asset": 1548523860870,
     "meta": 1548510166437,
     "relativePath": "pveDoorLight1"
   },
@@ -530,8 +530,8 @@
     "relativePath": "pveDoorLight1/pveDoorLight1.pac"
   },
   "43eaa89d-b166-41b6-92e5-d6bdd57acdf3": {
-    "asset": 1548510166437,
-    "meta": 1548510189568,
+    "asset": 1548523860871,
+    "meta": 1548524833378,
     "relativePath": "pveDoorLight1/pveDoorLight1.anim"
   },
   "2e4e3e31-1bf4-4d8c-bb09-687458baa89e": {
@@ -540,13 +540,13 @@
     "relativePath": "pveDoorLight1/pveDoorLight1.prefab"
   },
   "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
-    "asset": 1548510166439,
-    "meta": 1548510189614,
+    "asset": 1548523860870,
+    "meta": 1548524833456,
     "relativePath": "sceneMgr.js"
   },
   "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
-    "asset": 1548510166438,
-    "meta": 1548510189638,
+    "asset": 1548524810193,
+    "meta": 1548524833539,
     "relativePath": "sonar.js"
   },
   "b6a33785-3651-45f0-a7ed-5c76a7eeb5ed": {
@@ -560,58 +560,73 @@
     "relativePath": "scripts/control/CenterCamera.js"
   },
   "65795499-5ec2-4459-bd41-502b9632a497": {
-    "asset": 1548516022355,
-    "meta": 1548516022362,
+    "asset": 1548523860929,
+    "meta": 1548523860926,
     "relativePath": "dolphin"
   },
   "a4988e22-90e8-4fe5-845a-aed64f38a995": {
-    "asset": 1548516033630,
-    "meta": 1548516034241,
+    "asset": 1548523860927,
+    "meta": 1548524836877,
     "relativePath": "dolphin/Dolphin.FBX"
   },
   "a202b796-e0f0-4e28-970f-4e5f5c693442": {
-    "asset": 1548516033635,
-    "meta": 1548516034281,
+    "asset": 1548523860929,
+    "meta": 1548524836896,
     "relativePath": "dolphin/Dolphin@idle.FBX"
   },
   "dfad682d-bdc0-4a9e-8af0-a762f1d906b3": {
-    "asset": 1548516033635,
-    "meta": 1548516034308,
+    "asset": 1548523860930,
+    "meta": 1548524836939,
     "relativePath": "dolphin/Dolphin@turnRight.FBX"
   },
   "ed952c47-dcd9-46f2-b447-a28aa86a05c6": {
-    "asset": 1548516033635,
-    "meta": 1548516034340,
+    "asset": 1548523860930,
+    "meta": 1548524836924,
     "relativePath": "dolphin/Dolphin@turnLeft.FBX"
   },
   "43231b5b-827a-4498-913a-f04f80345bfe": {
-    "asset": 1548516033635,
-    "meta": 1548516034359,
+    "asset": 1548523860930,
+    "meta": 1548524836855,
     "relativePath": "dolphin/Dolphin@hit.FBX"
   },
   "60d58fd6-48c8-4eef-9d52-b1a77959ad91": {
-    "asset": 1548516033635,
-    "meta": 1548516034388,
+    "asset": 1548523860929,
+    "meta": 1548524836909,
     "relativePath": "dolphin/Dolphin@move.FBX"
   },
   "e2a82d6f-54bd-4c63-b5c3-0eb633dfa436": {
-    "asset": 1548518126443,
-    "meta": 1548518126444,
+    "asset": 1548523860929,
+    "meta": 1548523860928,
     "relativePath": "scripts/dolphin"
   },
   "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
-    "asset": 1548518147830,
-    "meta": 1548518149891,
+    "asset": 1548523860928,
+    "meta": 1548524833516,
     "relativePath": "scripts/control/Movement.js"
   },
   "bfe51632-4fe5-4c6d-83cc-5f50f0cfcf46": {
-    "asset": 1548523122642,
-    "meta": 1548523199326,
+    "asset": 1548523860931,
+    "meta": 1548524833537,
     "relativePath": "scripts/dolphin/pilot.js"
   },
   "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
-    "asset": 1548523756502,
-    "meta": 1548523760520,
+    "asset": 1548523860928,
+    "meta": 1548524833529,
     "relativePath": "scripts/dolphin/dolphin.js"
+  },
+  "3b9235c0-bd86-41b6-9e4b-632cad14bf92": {
+    "asset": 1548524810194,
+    "meta": 1548524810194,
+    "relativePath": "DolphinPreb"
+  },
+  "c09e2e79-6237-4c54-8071-cc34ea7269ac": {
+    "asset": 1548524810194,
+    "meta": 1548524833363,
+    "relativePath": "DolphinPreb/BBBanim.js"
+  },
+  "02f57a44-bcc4-439d-a94c-c37066190b81": {
+    "asset": 1548524810195,
+    "meta": 1548524833454,
+    "relativePath": "DolphinPreb/BBBBB.png"
   }
 }
