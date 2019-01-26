@@ -1,0 +1,150 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cartoon",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.516666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "cartoon01": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1054.149,
+                142.139
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -204.176,
+                142.139
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                -215.777,
+                142.139
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 5.016666666666667,
+              "value": 255
+            },
+            {
+              "frame": 5.516666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "cartoon02": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.5,
+              "value": [
+                -166.373,
+                -555.792
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -166.373,
+                -151.088
+              ]
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": [
+                -166.373,
+                -162.689
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.5,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "cartoon03": {
+        "props": {
+          "position": [
+            {
+              "frame": 2.1666666666666665,
+              "value": [
+                385.317,
+                718.848
+              ]
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": [
+                385.317,
+                -14.157
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                385.317,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 2.1666666666666665,
+              "value": 0
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

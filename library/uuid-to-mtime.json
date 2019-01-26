@@ -873,5 +873,45 @@
     "asset": 1548530716123,
     "meta": 1548530716127,
     "relativePath": "res/area-light-scene-sand.mtl"
+  },
+  "4c2d9706-3716-41b0-ac99-10a344b7b8d4": {
+    "asset": 1548531189651,
+    "meta": 1548531189664,
+    "relativePath": "res/cartoon"
+  },
+  "b1bd672b-3727-4319-b4ce-0dda45ea7fa5": {
+    "asset": 1548531381649,
+    "meta": 1548531381654,
+    "relativePath": "res/cartoon/cartoon.anim"
+  },
+  "9df9104e-8c1a-47f1-b430-ff5cfb4fcf17": {
+    "asset": 1548531189653,
+    "meta": 1548531189674,
+    "relativePath": "res/cartoon/cartoon.prefab"
+  },
+  "ea901853-2410-48a0-90f0-8a0e877736d4": {
+    "asset": 1548531189656,
+    "meta": 1548531189730,
+    "relativePath": "res/cartoon/cartoon01.png"
+  },
+  "b2647e0e-141f-406e-bf3e-0335d26c015d": {
+    "asset": 1548531189658,
+    "meta": 1548531189772,
+    "relativePath": "res/cartoon/cartoon.png"
+  },
+  "29686fb0-e40e-48f6-9574-dbbb38be3c5d": {
+    "asset": 1548531189656,
+    "meta": 1548531189778,
+    "relativePath": "res/cartoon/cartoon02.png"
+  },
+  "74927a3d-0e1a-4c60-86e7-49ffd768fd47": {
+    "asset": 1548531189656,
+    "meta": 1548531189825,
+    "relativePath": "res/cartoon/cartoon03.png"
+  },
+  "509f1d9b-8a46-4135-bd0f-fd5999704108": {
+    "asset": 1548531252645,
+    "meta": 1548531252650,
+    "relativePath": "scene/New Scene.fire"
   }
 }

@@ -49,7 +49,7 @@
                 "width": 976
               },
               {
-                "active": 0,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline"
@@ -82,32 +82,6 @@
         "timeline",
         "inspector",
         "scene"
-      ]
-    },
-    "window-1548527260366": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 735,
-      "y": 262,
-      "width": 454,
-      "height": 558,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "package-asset.import"
-            ],
-            "height": 536,
-            "type": "panel",
-            "width": 454
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "package-asset.import"
       ]
     }
   },
