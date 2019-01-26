@@ -439,11 +439,6 @@
     "meta": 1548509104590,
     "relativePath": "area-light-glow.effect"
   },
-  "bde68f5f-178a-4b3f-911b-877402f80678": {
-    "asset": 1548504090417,
-    "meta": 1548509104645,
-    "relativePath": "area-light.mtl"
-  },
   "b581c7c1-c401-41ae-a919-3dd95eff0f2b": {
     "asset": 1548504090417,
     "meta": 1548509104731,
@@ -469,11 +464,6 @@
     "meta": 1548509104842,
     "relativePath": "bloomCut.mtl"
   },
-  "c122e7de-ea3a-4486-a53b-443a13eae71f": {
-    "asset": 1548510166435,
-    "meta": 1548510189266,
-    "relativePath": "area-light.effect"
-  },
   "9888fc0e-843b-4755-86d9-84cd91481b3b": {
     "asset": 1548510166436,
     "meta": 1548510189275,
@@ -484,30 +474,10 @@
     "meta": 1548510189278,
     "relativePath": "bloomBlur.effect"
   },
-  "f5de4f67-e7c4-4255-a16c-1f291e7e229e": {
-    "asset": 1548529449725,
-    "meta": 1548529449738,
-    "relativePath": "dolphin-for-control.prefab"
-  },
   "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
     "asset": 1548523860928,
     "meta": 1548524833382,
     "relativePath": "scene/gameplay_test.fire"
-  },
-  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
-    "asset": 1548523860871,
-    "meta": 1548524833384,
-    "relativePath": "scene/test.fire"
-  },
-  "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
-    "asset": 1548523860870,
-    "meta": 1548524832980,
-    "relativePath": "boids.js"
-  },
-  "356f5518-4b86-4c56-82bd-6aa6e759b282": {
-    "asset": 1548524810194,
-    "meta": 1548524833368,
-    "relativePath": "DolphinPreb/Dolphin.prefab"
   },
   "94c2c9f1-e9bc-42f5-b7fb-b9c0ea50bd23": {
     "asset": 1548510166435,
@@ -533,16 +503,6 @@
     "asset": 1548510166438,
     "meta": 1548510189570,
     "relativePath": "pveDoorLight1/pveDoorLight1.prefab"
-  },
-  "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
-    "asset": 1548523860870,
-    "meta": 1548524833456,
-    "relativePath": "sceneMgr.js"
-  },
-  "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
-    "asset": 1548524810193,
-    "meta": 1548524833539,
-    "relativePath": "sonar.js"
   },
   "b6a33785-3651-45f0-a7ed-5c76a7eeb5ed": {
     "asset": 1548510166438,
@@ -599,11 +559,6 @@
     "meta": 1548524810194,
     "relativePath": "DolphinPreb"
   },
-  "c09e2e79-6237-4c54-8071-cc34ea7269ac": {
-    "asset": 1548524810194,
-    "meta": 1548524833363,
-    "relativePath": "DolphinPreb/BBBanim.js"
-  },
   "02f57a44-bcc4-439d-a94c-c37066190b81": {
     "asset": 1548524810195,
     "meta": 1548524833454,
@@ -613,16 +568,6 @@
     "asset": 1548524927926,
     "meta": 1548524927927,
     "relativePath": "res"
-  },
-  "60e4a9c5-f52d-4bad-b38e-a57fa14ddc80": {
-    "asset": 1548525044444,
-    "meta": 1548525044957,
-    "relativePath": "res/scene.fbx"
-  },
-  "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
-    "asset": 1548530315846,
-    "meta": 1548530315863,
-    "relativePath": "scene/level.fire"
   },
   "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
     "asset": 1548526558563,
@@ -854,9 +799,79 @@
     "meta": 1548529783150,
     "relativePath": "scripts/physics/physics-world.js"
   },
+  "c122e7de-ea3a-4486-a53b-443a13eae71f": {
+    "asset": 1548530378323,
+    "meta": 1548530398095,
+    "relativePath": "area-light.effect"
+  },
+  "bde68f5f-178a-4b3f-911b-877402f80678": {
+    "asset": 1548530378323,
+    "meta": 1548530398265,
+    "relativePath": "area-light.mtl"
+  },
+  "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
+    "asset": 1548530378323,
+    "meta": 1548530398266,
+    "relativePath": "boids.js"
+  },
+  "f5de4f67-e7c4-4255-a16c-1f291e7e229e": {
+    "asset": 1548530378325,
+    "meta": 1548530398286,
+    "relativePath": "dolphin-for-control.prefab"
+  },
+  "c09e2e79-6237-4c54-8071-cc34ea7269ac": {
+    "asset": 1548530378324,
+    "meta": 1548530398287,
+    "relativePath": "DolphinPreb/BBBanim.js"
+  },
+  "356f5518-4b86-4c56-82bd-6aa6e759b282": {
+    "asset": 1548530378324,
+    "meta": 1548530398305,
+    "relativePath": "DolphinPreb/Dolphin.prefab"
+  },
+  "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
+    "asset": 1548530892015,
+    "meta": 1548530892030,
+    "relativePath": "scene/level.fire"
+  },
   "d779077c-c89d-4432-9ea1-858dadb40ce7": {
-    "asset": 1548530004216,
-    "meta": 1548530004781,
+    "asset": 1548530378401,
+    "meta": 1548530398911,
     "relativePath": "res/newscene.fbx"
+  },
+  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
+    "asset": 1548530378324,
+    "meta": 1548530398790,
+    "relativePath": "scene/test.fire"
+  },
+  "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
+    "asset": 1548530378325,
+    "meta": 1548530398804,
+    "relativePath": "sceneMgr.js"
+  },
+  "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
+    "asset": 1548530378324,
+    "meta": 1548530398805,
+    "relativePath": "sonar.js"
+  },
+  "320af994-ba47-46f7-a4e3-9b6e7f8ce660": {
+    "asset": 1548530378324,
+    "meta": 1548530398807,
+    "relativePath": "Dolphin-for-boids.prefab"
+  },
+  "60e4a9c5-f52d-4bad-b38e-a57fa14ddc80": {
+    "asset": 1548525044444,
+    "meta": 1548530398975,
+    "relativePath": "res/scene.fbx"
+  },
+  "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023": {
+    "asset": 1548530603154,
+    "meta": 1548530603158,
+    "relativePath": "res/area-light-scene.mtl"
+  },
+  "36ac5e71-a561-4d23-be25-53a57eaaa650": {
+    "asset": 1548530716123,
+    "meta": 1548530716127,
+    "relativePath": "res/area-light-scene-sand.mtl"
   }
 }

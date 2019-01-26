@@ -375,9 +375,9 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 100,
       "y": -122.118,
-      "z": 0
+      "z": -20
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -511,7 +511,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": -300,
-      "z": 411.755
+      "z": 700
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -3301,7 +3301,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "7ad61626-ad4c-4973-900f-3fb70f3ff879"
+        "__uuid__": "36ac5e71-a561-4d23-be25-53a57eaaa650"
       }
     ],
     "_mesh": {
@@ -4247,7 +4247,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "0e1a3243-4f43-442e-8fe6-66cc8b6cb1e7"
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
       }
     ],
     "_mesh": {
@@ -15416,7 +15416,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "9d41f3fc-dbbf-4c22-bf2f-fea68cee049b"
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
       }
     ],
     "_mesh": {
@@ -15511,7 +15511,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "168c0de2-144a-49b8-9d06-2df30e1d2de7"
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
       }
     ],
     "_mesh": {
@@ -15606,7 +15606,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "b1ba40a0-3870-415c-ab23-8bd398633878"
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
       }
     ],
     "_mesh": {
@@ -15701,7 +15701,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "dbad7699-a56d-4329-9aff-edae3a6f91f6"
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
       }
     ],
     "_mesh": {
@@ -15796,7 +15796,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "a0f83f07-4585-4b4f-89d7-8788a4455748"
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
       }
     ],
     "_mesh": {
@@ -15891,7 +15891,7 @@
     "_dstBlendFactor": 771,
     "_materials": [
       {
-        "__uuid__": "0c257971-c97e-4d94-8d3a-ec4b672431fc"
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
       }
     ],
     "_mesh": {
@@ -15995,7 +15995,7 @@
       "__id__": 445
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_level": 3,
     "_components": [
       {
