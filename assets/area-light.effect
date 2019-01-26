@@ -34,7 +34,7 @@
   void main () {
     vec4 pos = vec4(a_position, 1);
 
-    v_localPosition = a_position;
+    v_localPosition = cc_matWorldIT * a_position;
     v_worldPosition = (cc_matWorld * pos).xyz;
     v_worldNormal = cc_matWorldIT * a_normal;
 

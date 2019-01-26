@@ -7,6 +7,10 @@
           frag: fs
           cullMode: none
           blend: true
+          blendSrc: one
+          blendDst: oneMinusSrcAlpha
+          blendSrcAlpha: one
+          blendDstAlpha: oneMinusSrcAlpha
         }
       ]
       layer: 0
@@ -20,6 +24,10 @@
     blurred: {
       type: sampler2D
       value: null
+    }
+    vignette: {
+      type: float 
+      value: 0.5
     }
   }
 %}
@@ -42,14 +50,26 @@
 %% fs {
   uniform sampler2D origin;
   uniform sampler2D blurred;
+
+  uniform vec3 resolution; // x, y, x/y
+  uniform float vignette;
+
   varying mediump vec2 v_uv0;
   
   #include <encodings>
 
   void main () {
-    vec3 o = texture2D(origin, vec2(v_uv0.x, 1.0 - v_uv0.y)).rgb;
-    o += texture2D(blurred, vec2(v_uv0.x, 1.0 - v_uv0.y)).rgb;
-    o /= o + vec3(1.0);
-    gl_FragColor = LINEAR_TO_OUTPUT_TEXEL(vec4(o, 1));
+    vec4 o = texture2D(origin, vec2(v_uv0.x, 1.0 - v_uv0.y));
+    vec4 b = texture2D(blurred, vec2(v_uv0.x, 1.0 - v_uv0.y));
+    vec3 c = o.rgb + b.rgb;
+    c /= c + vec3(1.0);
+
+	  vec2 uv = gl_FragCoord.xy / resolution.xy;
+    vec2 coord = (v_uv0 - 0.5) * resolution.z * 2.0;
+    float rf = sqrt(dot(coord, coord)) * vignette;
+    float rf2_1 = rf * rf + 1.0;
+    float e = 1.0 / (rf2_1 * rf2_1);
+
+    gl_FragColor = LINEAR_TO_OUTPUT_TEXEL(vec4(c * e, 1));
   }
 }
