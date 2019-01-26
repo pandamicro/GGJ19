@@ -18,8 +18,10 @@ cc.Class({
     start () {
         cc.SceneMgr = this;
         this.bright = cc.color('#F1882D');
-        this.dark = cc.color('#012222');
-        this.color = this.dark.clone();
+        this.darkBG = cc.color('#012222');
+        this.dark = cc.color('#337F7F');
+        this.color = this.darkBG.clone();
+        this.colorBG = this.darkBG.clone();
     },
 
     lerpCameraColor (c, time) {
@@ -30,11 +32,11 @@ cc.Class({
         addCallback((() => {
             const now = cc.director._totalFrames;
             if (now > end) {
-                this.color.set(tmp);
+                this.colorBG.set(tmp);
                 this.camera.backgroundColor = tmp;
                 return true;
             }
-            this.color.lerp(c, (now - beg) / dur, tmp);
+            this.colorBG.lerp(c, (now - beg) / dur, tmp);
             this.camera.backgroundColor = tmp;
         }).bind(this));
     },
@@ -67,7 +69,7 @@ cc.Class({
     },
 
     darken (time = 1) {
-        this.lerpCameraColor(this.dark, time);
+        this.lerpCameraColor(this.darkBG, time);
         this.lerpBoidsColor(this.dark, time);
         this.lerpVignetteColor(0.5, time);
     },

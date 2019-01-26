@@ -1,120 +1,104 @@
-2019-01-26T06:25:16.651Z - normal: Load ~/.CocosCreator/settings.json
-2019-01-26T06:25:17.873Z - normal: Initializing Asset Database
-2019-01-26T06:25:17.877Z - normal: checking language setting...
-2019-01-26T06:25:17.877Z - normal: Language: en
-2019-01-26T06:25:21.393Z - success: preview server running at http://localhost:7456
-2019-01-26T06:25:21.401Z - success: protocol editor-framework registered
-2019-01-26T06:25:21.402Z - success: protocol app registered
-2019-01-26T06:25:21.402Z - success: protocol theme registered
-2019-01-26T06:25:21.402Z - success: protocol packages registered
-2019-01-26T06:25:21.402Z - success: protocol uuid registerred
-2019-01-26T06:25:21.402Z - success: protocol db registerred
-2019-01-26T06:25:21.402Z - success: protocol thumbnail registerred
-2019-01-26T06:25:21.403Z - success: protocol unpack registerred
-2019-01-26T06:25:21.403Z - success: protocol disable-commonjs registerred
-2019-01-26T06:25:21.593Z - normal: connected!
-2019-01-26T06:25:21.594Z - normal: Check project D:\GGJ19
-2019-01-26T06:25:21.599Z - normal: Initializing project D:\GGJ19
-2019-01-26T06:25:23.666Z - normal: Initializing Cocos2d
-2019-01-26T06:25:30.043Z - normal: Initializing engine extends
-2019-01-26T06:25:30.148Z - success: asset-db-debugger loaded
-2019-01-26T06:25:30.177Z - success: code-editor loaded
-2019-01-26T06:25:30.186Z - success: color-picker loaded
-2019-01-26T06:25:30.544Z - success: fb-audience-network loaded
-2019-01-26T06:25:30.734Z - success: fb-live-stream loaded
-2019-01-26T06:25:30.780Z - success: google-play-instant loaded
-2019-01-26T06:25:30.894Z - success: huawei-runtime loaded
-2019-01-26T06:25:30.902Z - success: jsb-adapter loaded
-2019-01-26T06:25:30.971Z - success: oppo-runtime loaded
-2019-01-26T06:25:31.001Z - success: package-manager loaded
-2019-01-26T06:25:31.656Z - success: qqplay-adapter loaded
-2019-01-26T06:25:31.670Z - success: runtime-dev-tools loaded
-2019-01-26T06:25:31.707Z - success: sdkbox loaded
-2019-01-26T06:25:31.736Z - success: tester loaded
-2019-01-26T06:25:31.796Z - success: ui-grid loaded
-2019-01-26T06:25:31.820Z - success: ui-kit-preview-extra loaded
-2019-01-26T06:25:31.855Z - success: ui-kit-preview loaded
-2019-01-26T06:25:31.877Z - success: ui-kit loaded
-2019-01-26T06:25:31.909Z - success: ui-tree loaded
-2019-01-26T06:25:31.984Z - success: vivo-runtime loaded
-2019-01-26T06:25:32.027Z - success: weapp-adapter loaded
-2019-01-26T06:25:32.211Z - success: assets loaded
-2019-01-26T06:25:32.216Z - success: builder loaded
-2019-01-26T06:25:33.196Z - success: cocos-services loaded
-2019-01-26T06:25:33.202Z - success: console loaded
-2019-01-26T06:25:33.266Z - success: fb-instant-games loaded
-2019-01-26T06:25:33.271Z - success: game-window loaded
-2019-01-26T06:25:33.274Z - success: google-instant-games loaded
-2019-01-26T06:25:33.282Z - success: hierarchy loaded
-2019-01-26T06:25:33.287Z - success: inspector loaded
-2019-01-26T06:25:33.296Z - success: keystore loaded
-2019-01-26T06:25:33.303Z - success: node-library loaded
-2019-01-26T06:25:33.305Z - success: package-asset loaded
-2019-01-26T06:25:33.309Z - success: preferences loaded
-2019-01-26T06:25:33.318Z - success: project-exporter loaded
-2019-01-26T06:25:33.322Z - success: project-importer loaded
-2019-01-26T06:25:33.326Z - success: project-settings loaded
-2019-01-26T06:25:33.332Z - success: scene loaded
-2019-01-26T06:25:33.334Z - success: simulator-debugger loaded
-2019-01-26T06:25:33.336Z - success: sprite-editor loaded
-2019-01-26T06:25:33.344Z - success: store loaded
-2019-01-26T06:25:33.351Z - success: timeline loaded
-2019-01-26T06:25:40.022Z - normal: Loading packages
-2019-01-26T06:25:40.029Z - normal: Watching packages
-2019-01-26T06:25:40.791Z - info: Cocos Services load base data!
-2019-01-26T06:25:41.123Z - normal: Run Application
-2019-01-26T09:06:27.432Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:29470
-2019-01-26T09:31:26.213Z - failed: load script [renderTexture] failed : Error: Cannot find module 'renderTexture'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\electron.asar\common\reset-search-paths.js:35:12)
-    at Function.s._resolveFilename (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:941)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:589)
-    at D:\GGJ19\temp\quick-scripts\assets\camera.js:1:341
-    at __define (D:\GGJ19\temp\quick-scripts\assets\camera.js:20:25)
-    at D:\GGJ19\temp\quick-scripts\assets\camera.js:70:13
-2019-01-26T10:01:37.611Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:47914
-2019-01-26T10:02:24.023Z - failed: load script [renderTexture] failed : Error: Cannot find module 'renderTexture'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\electron.asar\common\reset-search-paths.js:35:12)
-    at Function.s._resolveFilename (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:941)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:589)
-    at D:\GGJ19\temp\quick-scripts\assets\camera.js:1:341
-    at __define (D:\GGJ19\temp\quick-scripts\assets\camera.js:20:25)
-    at D:\GGJ19\temp\quick-scripts\assets\camera.js:82:13
-2019-01-26T10:08:16.665Z - error: getComponent: Type must be non-nil
-    at Object.cc.errorID (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:167:16)
-    at getConstructor (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:29:20)
-    at cc_Node.getComponent (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:399:35)
-    at HTMLElement.query-node-info (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\builtin\scene\panel\messages\scene-query.js:1:1331)
-    at Object.e._dispatch (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1941)
-    at EventEmitter.o.on.s (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2917)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2019-01-26T10:24:47.829Z - failed: load script [renderTextures] failed : Error: Cannot find module 'renderTextures'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\electron.asar\common\reset-search-paths.js:35:12)
-    at Function.s._resolveFilename (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:941)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:589)
-    at D:\GGJ19\temp\quick-scripts\assets\sceneMgr.js:1:343
-    at __define (D:\GGJ19\temp\quick-scripts\assets\sceneMgr.js:20:25)
-    at D:\GGJ19\temp\quick-scripts\assets\sceneMgr.js:87:13
-2019-01-26T10:24:52.337Z - failed: load script [renderTextures] failed : Error: Cannot find module 'renderTextures'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\electron.asar\common\reset-search-paths.js:35:12)
-    at Function.s._resolveFilename (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:941)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (D:\CocosCreator_v2.1.1-alpha.2_20190125_win\resources\app.asar\editor\page\project-scripts.js:1:589)
-    at D:\GGJ19\temp\quick-scripts\assets\sceneMgr.js:1:343
-    at __define (D:\GGJ19\temp\quick-scripts\assets\sceneMgr.js:20:25)
-    at D:\GGJ19\temp\quick-scripts\assets\sceneMgr.js:87:13
+2019-01-26T14:50:08.855Z - normal: Load ~/.CocosCreator/settings.json
+2019-01-26T14:50:10.204Z - normal: Initializing Asset Database
+2019-01-26T14:50:10.210Z - normal: checking language setting...
+2019-01-26T14:50:10.211Z - normal: Language: en
+2019-01-26T14:50:11.850Z - success: preview server running at http://localhost:7456
+2019-01-26T14:50:11.856Z - success: protocol editor-framework registered
+2019-01-26T14:50:11.856Z - success: protocol app registered
+2019-01-26T14:50:11.856Z - success: protocol theme registered
+2019-01-26T14:50:11.856Z - success: protocol packages registered
+2019-01-26T14:50:11.857Z - success: protocol uuid registerred
+2019-01-26T14:50:11.857Z - success: protocol db registerred
+2019-01-26T14:50:11.857Z - success: protocol thumbnail registerred
+2019-01-26T14:50:11.857Z - success: protocol unpack registerred
+2019-01-26T14:50:11.857Z - success: protocol disable-commonjs registerred
+2019-01-26T14:50:12.036Z - normal: connected!
+2019-01-26T14:50:12.037Z - normal: Check project D:\GGJ19
+2019-01-26T14:50:12.041Z - normal: Initializing project D:\GGJ19
+2019-01-26T14:50:13.938Z - normal: Initializing Cocos2d
+2019-01-26T14:50:15.509Z - normal: Initializing engine extends
+2019-01-26T14:50:15.567Z - success: asset-db-debugger loaded
+2019-01-26T14:50:15.577Z - success: code-editor loaded
+2019-01-26T14:50:15.584Z - success: color-picker loaded
+2019-01-26T14:50:15.841Z - success: fb-audience-network loaded
+2019-01-26T14:50:16.031Z - success: fb-live-stream loaded
+2019-01-26T14:50:16.040Z - success: google-play-instant loaded
+2019-01-26T14:50:16.047Z - success: huawei-runtime loaded
+2019-01-26T14:50:16.048Z - success: jsb-adapter loaded
+2019-01-26T14:50:16.057Z - success: oppo-runtime loaded
+2019-01-26T14:50:16.062Z - success: package-manager loaded
+2019-01-26T14:50:16.338Z - success: qqplay-adapter loaded
+2019-01-26T14:50:16.341Z - success: runtime-dev-tools loaded
+2019-01-26T14:50:16.348Z - success: sdkbox loaded
+2019-01-26T14:50:16.355Z - success: tester loaded
+2019-01-26T14:50:16.358Z - success: ui-grid loaded
+2019-01-26T14:50:16.362Z - success: ui-kit-preview-extra loaded
+2019-01-26T14:50:16.365Z - success: ui-kit-preview loaded
+2019-01-26T14:50:16.368Z - success: ui-kit loaded
+2019-01-26T14:50:16.371Z - success: ui-tree loaded
+2019-01-26T14:50:16.380Z - success: vivo-runtime loaded
+2019-01-26T14:50:16.382Z - success: weapp-adapter loaded
+2019-01-26T14:50:16.487Z - success: assets loaded
+2019-01-26T14:50:16.491Z - success: builder loaded
+2019-01-26T14:50:17.086Z - success: cocos-services loaded
+2019-01-26T14:50:17.093Z - success: console loaded
+2019-01-26T14:50:17.163Z - success: fb-instant-games loaded
+2019-01-26T14:50:17.170Z - success: game-window loaded
+2019-01-26T14:50:17.172Z - success: google-instant-games loaded
+2019-01-26T14:50:17.181Z - success: hierarchy loaded
+2019-01-26T14:50:17.187Z - success: inspector loaded
+2019-01-26T14:50:17.189Z - success: keystore loaded
+2019-01-26T14:50:17.198Z - success: node-library loaded
+2019-01-26T14:50:17.202Z - success: package-asset loaded
+2019-01-26T14:50:17.207Z - success: preferences loaded
+2019-01-26T14:50:17.210Z - success: project-exporter loaded
+2019-01-26T14:50:17.215Z - success: project-importer loaded
+2019-01-26T14:50:17.221Z - success: project-settings loaded
+2019-01-26T14:50:17.228Z - success: scene loaded
+2019-01-26T14:50:17.231Z - success: simulator-debugger loaded
+2019-01-26T14:50:17.233Z - success: sprite-editor loaded
+2019-01-26T14:50:17.242Z - success: store loaded
+2019-01-26T14:50:17.249Z - success: timeline loaded
+2019-01-26T14:50:20.607Z - normal: Loading packages
+2019-01-26T14:50:20.615Z - normal: Watching packages
+2019-01-26T14:50:21.581Z - info: Cocos Services load base data!
+2019-01-26T14:50:21.831Z - normal: Run Application
+2019-01-26T16:12:41.915Z - info: Only the prefab node "Dolphin" and its child nodes are saved.
+2019-01-26T16:12:43.119Z - info: Only the prefab node "Dolphin" and its child nodes are saved.
+2019-01-26T16:21:40.752Z - info: Only the prefab node "Dolphin" and its child nodes are saved.
+2019-01-26T16:57:23.715Z - warn: Script attached to "BBBBB" in prefab "Dolphin.prefab" is missing or invalid. Detailed information:
+Node path: "Dolphin/polySurface2/BBBBB"
+Asset url: "db://assets/sonar/Dolphin.prefab"
+Script UUID: "c09e2e79-6237-4c54-8071-cc34ea7269ac"
+Class ID: "c09e255YjdMVIBxzDTqcmms"
+
+2019-01-26T16:57:23.878Z - warn: The Asset used by component "cc.Sprite" in prefab "Dolphin.prefab" is missing. Detailed information:
+Node path: "Dolphin/polySurface2/BBBBB/BBBBB"
+Asset url: "db://assets/sonar/Dolphin.prefab"
+Missing uuid: "c0e7c237-14cd-497d-aeca-d2de2f1bbe15"
+
+2019-01-26T16:59:25.708Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/sonar.meta
+2019-01-26T16:59:30.704Z - warn: The Asset used by node "BBBBB" is missing. Detailed information:
+Node path: "Dolphin/polySurface2/BBBBB/BBBBB"
+Missing uuid: "906b88e6-19ea-4f94-9ab4-bdda6c107691"
+
+2019-01-26T16:59:30.705Z - warn: The Asset used by node "BBBBB" is missing. Detailed information:
+Node path: "Dolphin/polySurface2/BBBBB"
+Missing uuid: "906b88e6-19ea-4f94-9ab4-bdda6c107691"
+
+2019-01-26T16:59:30.707Z - warn: The Asset used by node "polySurface2" is missing. Detailed information:
+Node path: "Dolphin/polySurface2"
+Missing uuid: "906b88e6-19ea-4f94-9ab4-bdda6c107691"
+
+2019-01-26T16:59:30.709Z - warn: The Asset used by node "search4" is missing. Detailed information:
+Node path: "Dolphin/pveDoorLight1/search4"
+Missing uuid: "906b88e6-19ea-4f94-9ab4-bdda6c107691"
+
+2019-01-26T16:59:30.710Z - warn: The Asset used by node "pveDoorLight1" is missing. Detailed information:
+Node path: "Dolphin/pveDoorLight1"
+Missing uuid: "906b88e6-19ea-4f94-9ab4-bdda6c107691"
+
+2019-01-26T16:59:30.711Z - warn: The Asset used by node "Dolphin" is missing. Detailed information:
+Node path: "Dolphin"
+Missing uuid: "906b88e6-19ea-4f94-9ab4-bdda6c107691"
+
