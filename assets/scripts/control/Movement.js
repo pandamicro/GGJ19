@@ -24,8 +24,6 @@ cc.Class({
 
     start () {
         this._body = this.target.getComponent(cc.RigidBody);
-        this._headPos = cc.v2();
-
         this._prevPos = cc.v2();
         this._dir = cc.v2();
         this._eulerAngles = cc.v3();
@@ -59,6 +57,13 @@ cc.Class({
         this._dir.subSelf(this._prevPos);
 
         this._prevPos.set(touch._point);
+        let distance = this._dir.mag();
+        if (distance <= 1) {
+            this._dir.x = 0;
+            this._dir.y = 0;
+            console.log(distance);
+        }
+        this._dir.mulSelf(this.speed);
         this._moving = true;
     },
 
@@ -70,38 +75,7 @@ cc.Class({
         if (this._moving) {
             let body = this._body;
 
-            let currAngle = body.getWorldRotation();
-            let desireAngle = Math.atan2(this._dir.y, this._dir.x) * 180 / Math.PI;
-            let angle = cc.misc.degreesToRadians(currAngle + (desireAngle - currAngle % 360) * 0.1);
-            let xdir = Math.cos(angle);
-            let ydir = Math.sin(angle);
-            let dx = this._dir.x * xdir;
-            let dy = this._dir.y * ydir;
-            if (dx * xdir < 0) dx = 0;
-            if (dy * ydir < 0) dy = 0;
-            let dir = cc.v2(dx, dy).mulSelf(this.speed * 60);
-            // body.linearVelocity = dir;
-            body.applyForceToCenter(dir);
-
-            // let distance = this._dir.mag();
-            // if (distance > 2) {
-            //     let desireAngle = Math.atan2(this._dir.y, this._dir.x) * 180 / Math.PI;
-            //     let angularVelocity = -currAngle % 360 - (360 + desireAngle) % 360;
-            //     // let angularVelocity = Math.atan2(this._dir.y, this._dir.x) * 180 / Math.PI;
-            //     // let pos = body.getWorldPosition();
-            //     // pos.x += TORQUE * xdir;
-            //     // pos.y += TORQUE * ydir;
-            //     body.applyTorque(angularVelocity > 0 ? -50 : 50);
-            // }
-
-            // let currAngle = this.target.eulerAngles.z;
-            // let currDir = cc.v2(Math.cos(currAngle), Math.sin(currAngle));
-            // let dir = this._dir.mul(this.speed * dt).project(currDir);
-            // // Direction correction
-            // if (dir.x * currDir.x < 0) dir.x = 0;
-            // if (dir.y * currDir.y < 0) dir.y = 0;
-            // this.target.x += dir.x;
-            // this.target.y += dir.y;
+            body.linearVelocity = this._dir;
             this.camera.x = this.target.x;
             this.camera.y = this.target.y;
 
