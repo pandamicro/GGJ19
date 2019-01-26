@@ -6,7 +6,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -1920,
+      "x": -1919,
       "y": 23,
       "width": 1920,
       "height": 1056,
@@ -83,6 +83,32 @@
         "inspector",
         "scene"
       ]
+    },
+    "window-1548527260366": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 735,
+      "y": 262,
+      "width": 454,
+      "height": 558,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "package-asset.import"
+            ],
+            "height": 536,
+            "type": "panel",
+            "width": 454
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "package-asset.import"
+      ]
     }
   },
   "panels": {
@@ -91,6 +117,12 @@
       "y": 5,
       "width": 813,
       "height": 619
+    },
+    "package-asset.import": {
+      "x": 735,
+      "y": 262,
+      "width": 454,
+      "height": 558
     }
   }
 }
