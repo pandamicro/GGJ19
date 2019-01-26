@@ -16,7 +16,6 @@ cc.Class({
     properties: {
         speed: 1,
         target: cc.Node,
-        skeleton: cc.Node,
         camera: cc.Node,
     },
 
@@ -78,21 +77,6 @@ cc.Class({
             body.linearVelocity = this._dir;
             this.camera.x = this.target.x;
             this.camera.y = this.target.y;
-
-            // let distance = this._dir.mag();
-            // if (distance > 2) {
-            //     let angle = Math.atan2(this._dir.y, this._dir.x) * 180 / Math.PI;
-            //     this._eulerAngles.z = angle;
-            //     this._currRot.fromEuler(this._eulerAngles);
-            //     this._prevRot.lerp(this._currRot, dt / 0.33, this._currRot);
-            //     this._currRot.toEuler(this._eulerAngles);
-            //     angle = this._eulerAngles.z;
-
-            //     let b2body = this._body._b2Body;
-            //     b2body.SetTransformVec(b2body.GetPosition(), cc.misc.degreesToRadians(angle));
-
-            //     this._prevRot.set(this._currRot);
-            // }
         }
     },
 });

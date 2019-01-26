@@ -394,11 +394,6 @@
     "meta": 1548434166796,
     "relativePath": "resources/materials/builtin-unlit.mtl"
   },
-  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
-    "asset": 1548434005965,
-    "meta": 1548434169643,
-    "relativePath": "scene/test.fire"
-  },
   "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
     "asset": 1548428696903,
     "meta": 1548434169609,
@@ -408,11 +403,6 @@
     "asset": 1548432086218,
     "meta": 1548434169987,
     "relativePath": "Dolphin.fbx"
-  },
-  "9e8ca766-d959-4e3c-b347-f8d146525089": {
-    "asset": 1548432086215,
-    "meta": 1548434169640,
-    "relativePath": "New Material.mtl"
   },
   "045afd92-b3ea-4945-a902-6a3026637a28": {
     "asset": 1548433947803,
@@ -430,33 +420,98 @@
     "relativePath": "scripts/environment.js"
   },
   "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
-    "asset": 1548494551764,
-    "meta": 1548494551768,
+    "asset": 1548510130894,
+    "meta": 1548510130903,
     "relativePath": "scene/gameplay_test.fire"
   },
-  "44603b32-6a6e-4878-9da5-225b601807b3": {
-    "asset": 1548486851804,
-    "meta": 1548486851806,
-    "relativePath": "scripts/physics"
+  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
+    "asset": 1548504090421,
+    "meta": 1548509104364,
+    "relativePath": "scene/test.fire"
   },
   "99e082e7-ac34-4bbb-9518-73ecf5b4a656": {
-    "asset": 1548486851805,
-    "meta": 1548486919607,
+    "asset": 1548504090638,
+    "meta": 1548509104381,
     "relativePath": "scripts/control/Sonar.js"
   },
+  "44603b32-6a6e-4878-9da5-225b601807b3": {
+    "asset": 1548504090638,
+    "meta": 1548504090638,
+    "relativePath": "scripts/physics"
+  },
   "26f87564-f24a-4466-9ceb-b3e03c494f6d": {
-    "asset": 1548486851804,
-    "meta": 1548486919644,
+    "asset": 1548504090639,
+    "meta": 1548509104465,
     "relativePath": "scripts/physics/physics-bound.js"
   },
   "5f592a94-dac6-4af1-b4d1-db8481cfafdf": {
-    "asset": 1548486851805,
-    "meta": 1548486919645,
+    "asset": 1548504090638,
+    "meta": 1548509104549,
     "relativePath": "scripts/physics/physics-settings.js"
   },
+  "03362946-d1ee-43cc-a18b-02e940469ece": {
+    "asset": 1548504090416,
+    "meta": 1548509104590,
+    "relativePath": "area-light-glow.effect"
+  },
+  "c122e7de-ea3a-4486-a53b-443a13eae71f": {
+    "asset": 1548504090416,
+    "meta": 1548509104592,
+    "relativePath": "area-light.effect"
+  },
+  "9888fc0e-843b-4755-86d9-84cd91481b3b": {
+    "asset": 1548504090418,
+    "meta": 1548509104641,
+    "relativePath": "bloomBlend.effect"
+  },
+  "bde68f5f-178a-4b3f-911b-877402f80678": {
+    "asset": 1548504090417,
+    "meta": 1548509104645,
+    "relativePath": "area-light.mtl"
+  },
+  "00f870d5-638a-4ab7-b920-57d4a7f21aa4": {
+    "asset": 1548504090418,
+    "meta": 1548509104722,
+    "relativePath": "bloomBlur.effect"
+  },
+  "b581c7c1-c401-41ae-a919-3dd95eff0f2b": {
+    "asset": 1548504090417,
+    "meta": 1548509104731,
+    "relativePath": "bloomBlend.mtl"
+  },
+  "c9d94d30-7637-495f-92de-a84b0976bac8": {
+    "asset": 1548504090419,
+    "meta": 1548509104748,
+    "relativePath": "bloomBlurH.mtl"
+  },
+  "61d54ba5-8e4c-4ea0-adf2-47230371f2fe": {
+    "asset": 1548504090420,
+    "meta": 1548509104756,
+    "relativePath": "bloomCut.effect"
+  },
+  "b380fbf5-cbc4-4f61-80c1-550ec52902a0": {
+    "asset": 1548504090419,
+    "meta": 1548509104756,
+    "relativePath": "bloomBlurV.mtl"
+  },
+  "94c2c9f1-e9bc-42f5-b7fb-b9c0ea50bd23": {
+    "asset": 1548504090420,
+    "meta": 1548509104842,
+    "relativePath": "renderTextures.js"
+  },
+  "12b543b4-bcd7-4796-93ca-b1cbc1b71a6f": {
+    "asset": 1548504090420,
+    "meta": 1548509104842,
+    "relativePath": "bloomCut.mtl"
+  },
   "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
-    "asset": 1548496786185,
-    "meta": 1548496787342,
+    "asset": 1548510113294,
+    "meta": 1548510117983,
     "relativePath": "scripts/control/Movement.js"
+  },
+  "f5de4f67-e7c4-4255-a16c-1f291e7e229e": {
+    "asset": 1548510120786,
+    "meta": 1548510129943,
+    "relativePath": "dolphin-for-control.prefab"
   }
 }
