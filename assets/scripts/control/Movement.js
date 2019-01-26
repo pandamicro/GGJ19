@@ -16,7 +16,7 @@ cc.Class({
     properties: {
         speed: 1,
         target: cc.Node,
-        camera: cc.Node,
+        camera: require('./CenterCamera'),
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -60,7 +60,6 @@ cc.Class({
         if (distance <= 1) {
             this._dir.x = 0;
             this._dir.y = 0;
-            console.log(distance);
         }
         this._dir.mulSelf(this.speed);
         this._moving = true;
@@ -75,8 +74,7 @@ cc.Class({
             let body = this._body;
 
             body.linearVelocity = this._dir;
-            this.camera.x = this.target.x;
-            this.camera.y = this.target.y;
+            this.camera.updatePos();
         }
     },
 });

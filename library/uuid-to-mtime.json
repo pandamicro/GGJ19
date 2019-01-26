@@ -419,16 +419,6 @@
     "meta": 1548434169978,
     "relativePath": "scripts/environment.js"
   },
-  "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
-    "asset": 1548510130894,
-    "meta": 1548510130903,
-    "relativePath": "scene/gameplay_test.fire"
-  },
-  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
-    "asset": 1548504090421,
-    "meta": 1548509104364,
-    "relativePath": "scene/test.fire"
-  },
   "99e082e7-ac34-4bbb-9518-73ecf5b4a656": {
     "asset": 1548504090638,
     "meta": 1548509104381,
@@ -454,25 +444,10 @@
     "meta": 1548509104590,
     "relativePath": "area-light-glow.effect"
   },
-  "c122e7de-ea3a-4486-a53b-443a13eae71f": {
-    "asset": 1548504090416,
-    "meta": 1548509104592,
-    "relativePath": "area-light.effect"
-  },
-  "9888fc0e-843b-4755-86d9-84cd91481b3b": {
-    "asset": 1548504090418,
-    "meta": 1548509104641,
-    "relativePath": "bloomBlend.effect"
-  },
   "bde68f5f-178a-4b3f-911b-877402f80678": {
     "asset": 1548504090417,
     "meta": 1548509104645,
     "relativePath": "area-light.mtl"
-  },
-  "00f870d5-638a-4ab7-b920-57d4a7f21aa4": {
-    "asset": 1548504090418,
-    "meta": 1548509104722,
-    "relativePath": "bloomBlur.effect"
   },
   "b581c7c1-c401-41ae-a919-3dd95eff0f2b": {
     "asset": 1548504090417,
@@ -494,24 +469,99 @@
     "meta": 1548509104756,
     "relativePath": "bloomBlurV.mtl"
   },
-  "94c2c9f1-e9bc-42f5-b7fb-b9c0ea50bd23": {
-    "asset": 1548504090420,
-    "meta": 1548509104842,
-    "relativePath": "renderTextures.js"
-  },
   "12b543b4-bcd7-4796-93ca-b1cbc1b71a6f": {
     "asset": 1548504090420,
     "meta": 1548509104842,
     "relativePath": "bloomCut.mtl"
   },
-  "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
-    "asset": 1548510113294,
-    "meta": 1548510117983,
-    "relativePath": "scripts/control/Movement.js"
+  "c122e7de-ea3a-4486-a53b-443a13eae71f": {
+    "asset": 1548510166435,
+    "meta": 1548510189266,
+    "relativePath": "area-light.effect"
+  },
+  "9888fc0e-843b-4755-86d9-84cd91481b3b": {
+    "asset": 1548510166436,
+    "meta": 1548510189275,
+    "relativePath": "bloomBlend.effect"
+  },
+  "00f870d5-638a-4ab7-b920-57d4a7f21aa4": {
+    "asset": 1548510166437,
+    "meta": 1548510189278,
+    "relativePath": "bloomBlur.effect"
   },
   "f5de4f67-e7c4-4255-a16c-1f291e7e229e": {
-    "asset": 1548510120786,
-    "meta": 1548510129943,
+    "asset": 1548510166506,
+    "meta": 1548510189280,
     "relativePath": "dolphin-for-control.prefab"
+  },
+  "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
+    "asset": 1548515453909,
+    "meta": 1548515453915,
+    "relativePath": "scene/gameplay_test.fire"
+  },
+  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
+    "asset": 1548510166439,
+    "meta": 1548510189340,
+    "relativePath": "scene/test.fire"
+  },
+  "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
+    "asset": 1548510166436,
+    "meta": 1548510189496,
+    "relativePath": "boids.js"
+  },
+  "356f5518-4b86-4c56-82bd-6aa6e759b282": {
+    "asset": 1548510166436,
+    "meta": 1548510189559,
+    "relativePath": "Dolphin.prefab"
+  },
+  "94c2c9f1-e9bc-42f5-b7fb-b9c0ea50bd23": {
+    "asset": 1548510166435,
+    "meta": 1548510189561,
+    "relativePath": "postProcessing.js"
+  },
+  "9fdf95bb-e33d-490c-b195-18ebee1301f1": {
+    "asset": 1548510166438,
+    "meta": 1548510166437,
+    "relativePath": "pveDoorLight1"
+  },
+  "988dfe76-f6c6-427b-99c3-1c1c5fcd4a8a": {
+    "asset": 1548510166438,
+    "meta": 1548510189563,
+    "relativePath": "pveDoorLight1/pveDoorLight1.pac"
+  },
+  "43eaa89d-b166-41b6-92e5-d6bdd57acdf3": {
+    "asset": 1548510166437,
+    "meta": 1548510189568,
+    "relativePath": "pveDoorLight1/pveDoorLight1.anim"
+  },
+  "2e4e3e31-1bf4-4d8c-bb09-687458baa89e": {
+    "asset": 1548510166438,
+    "meta": 1548510189570,
+    "relativePath": "pveDoorLight1/pveDoorLight1.prefab"
+  },
+  "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
+    "asset": 1548510166439,
+    "meta": 1548510189614,
+    "relativePath": "sceneMgr.js"
+  },
+  "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
+    "asset": 1548510166438,
+    "meta": 1548510189638,
+    "relativePath": "sonar.js"
+  },
+  "b6a33785-3651-45f0-a7ed-5c76a7eeb5ed": {
+    "asset": 1548510166438,
+    "meta": 1548510189702,
+    "relativePath": "pveDoorLight1/search4.png"
+  },
+  "eb8c7fe1-4d34-4042-985c-05d9102f8e15": {
+    "asset": 1548515350585,
+    "meta": 1548515356394,
+    "relativePath": "scripts/control/CenterCamera.js"
+  },
+  "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
+    "asset": 1548515441453,
+    "meta": 1548515443765,
+    "relativePath": "scripts/control/Movement.js"
   }
 }
