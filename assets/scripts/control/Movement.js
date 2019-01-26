@@ -12,7 +12,6 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        speed: 1,
         target: require('../dolphin/pilot'),
         camera: require('./CenterCamera'),
     },
@@ -40,6 +39,7 @@ cc.Class({
     touchStart (event) {
         let touch = event.touch;
         this._prevPos.set(touch._point);
+        this._moving = true;
     },
 
     touchMove (event) {
@@ -54,11 +54,13 @@ cc.Class({
             this._dir.x = 0;
             this._dir.y = 0;
         }
-        this._dir.mulSelf(this.speed);
-        this._moving = true;
     },
 
     touchEnd (event) {
+        this.scheduleOnce(this.endMove, 3);
+    },
+
+    endMove () {
         this._moving = false;
     },
 

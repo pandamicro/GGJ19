@@ -25,7 +25,7 @@ cc.Class({
 
     move (dir) {
         let body = this._body;
-        body.linearVelocity = dir;
+        body.linearVelocity = dir.mul(this.speed);
     }
 
     // update (dt) {},

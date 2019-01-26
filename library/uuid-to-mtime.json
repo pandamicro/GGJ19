@@ -429,11 +429,6 @@
     "meta": 1548504090638,
     "relativePath": "scripts/physics"
   },
-  "26f87564-f24a-4466-9ceb-b3e03c494f6d": {
-    "asset": 1548504090639,
-    "meta": 1548509104465,
-    "relativePath": "scripts/physics/physics-bound.js"
-  },
   "5f592a94-dac6-4af1-b4d1-db8481cfafdf": {
     "asset": 1548504090638,
     "meta": 1548509104549,
@@ -490,8 +485,8 @@
     "relativePath": "bloomBlur.effect"
   },
   "f5de4f67-e7c4-4255-a16c-1f291e7e229e": {
-    "asset": 1548524873957,
-    "meta": 1548524873965,
+    "asset": 1548529449725,
+    "meta": 1548529449738,
     "relativePath": "dolphin-for-control.prefab"
   },
   "6f3b0983-2892-496c-8879-1e34ad3ccb50": {
@@ -599,16 +594,6 @@
     "meta": 1548523860928,
     "relativePath": "scripts/dolphin"
   },
-  "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
-    "asset": 1548523860928,
-    "meta": 1548524833516,
-    "relativePath": "scripts/control/Movement.js"
-  },
-  "bfe51632-4fe5-4c6d-83cc-5f50f0cfcf46": {
-    "asset": 1548523860931,
-    "meta": 1548524833537,
-    "relativePath": "scripts/dolphin/pilot.js"
-  },
   "3b9235c0-bd86-41b6-9e4b-632cad14bf92": {
     "asset": 1548524810194,
     "meta": 1548524810194,
@@ -635,8 +620,8 @@
     "relativePath": "res/scene.fbx"
   },
   "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
-    "asset": 1548527744013,
-    "meta": 1548527744031,
+    "asset": 1548529834209,
+    "meta": 1548529834225,
     "relativePath": "scene/level.fire"
   },
   "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
@@ -853,5 +838,20 @@
     "asset": 1548527826608,
     "meta": 1548527826614,
     "relativePath": "scene/login.fire"
+  },
+  "bfe51632-4fe5-4c6d-83cc-5f50f0cfcf46": {
+    "asset": 1548529065157,
+    "meta": 1548529075144,
+    "relativePath": "scripts/dolphin/pilot.js"
+  },
+  "f61f0436-5f77-4b50-804c-b7f5d47acfa6": {
+    "asset": 1548529400095,
+    "meta": 1548529437996,
+    "relativePath": "scripts/control/Movement.js"
+  },
+  "26f87564-f24a-4466-9ceb-b3e03c494f6d": {
+    "asset": 1548529780089,
+    "meta": 1548529783150,
+    "relativePath": "scripts/physics/physics-world.js"
   }
 }
