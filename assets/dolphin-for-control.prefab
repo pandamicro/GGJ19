@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "dolphin",
+    "_name": "dolphin-for-control",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -435,7 +435,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "f5de4f67-e7c4-4255-a16c-1f291e7e229e"
     },
     "fileId": "a0aImWs9FDEbjg5OswtjqA",
     "sync": false
@@ -446,7 +446,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "f5de4f67-e7c4-4255-a16c-1f291e7e229e"
     },
     "fileId": "e0TNKL5hxHY65e02AGqBi1",
     "sync": false
@@ -551,7 +551,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "f5de4f67-e7c4-4255-a16c-1f291e7e229e"
     },
     "fileId": "6d72CDV81NS5sS/Oagpxrg",
     "sync": false
@@ -589,7 +589,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "f5de4f67-e7c4-4255-a16c-1f291e7e229e"
     },
     "fileId": "00H9b7S0lMrpqm+vyOW/gD",
     "sync": false
@@ -600,7 +600,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "f5de4f67-e7c4-4255-a16c-1f291e7e229e"
     },
     "fileId": "edDdWzioRKcKjjHKl1jMRM",
     "sync": false
