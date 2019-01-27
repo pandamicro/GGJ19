@@ -13,6 +13,7 @@ cc.Class({
 
     properties: {
         bbb: require('../../DolphinPreb/BBBanim'),
+        sonar: require('../../sonar'),
         root: cc.Node
     },
 
@@ -87,8 +88,8 @@ cc.Class({
     },
 
     shootBB () {
-        this.bbb.play();
-        // cc.WorldMgr.sonarDetect();
+        let shoot = this.bbb.play();
+        this.sonar.activate();
     }
 
     // update (dt) {},

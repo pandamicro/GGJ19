@@ -14,16 +14,13 @@ cc.Class({
         cc.director.once(cc.Director.EVENT_AFTER_UPDATE, () => this.animation.stop());
     },
 
-    start () {
-        this.nextWave = cc.director._totalFrames
-            + random(this.minInterval, this.maxInterval) * 60;
-    },
+    // start () {
+    //     this.nextWave = cc.director._totalFrames
+    //         + random(this.minInterval, this.maxInterval) * 60;
+    // },
 
-    update (dt) {
-        const t = cc.director._totalFrames;
-        if (t < this.nextWave) return;
-        this.nextWave = cc.director._totalFrames
-            + random(this.minInterval, this.maxInterval) * 60;
+    activate () {
         this.animation.play();
+        cc.WorldMgr.sonarDetect();
     },
 });

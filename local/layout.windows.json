@@ -1,6 +1,7 @@
 {
   "version": "1.1.1",
   "windows": {
+    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
@@ -20,7 +21,7 @@
                 ],
                 "height": 446,
                 "type": "panel",
-                "width": 213
+                "width": 257
               },
               {
                 "active": 0,
@@ -29,12 +30,12 @@
                 ],
                 "height": 493,
                 "type": "panel",
-                "width": 213
+                "width": 257
               }
             ],
             "height": 941,
             "type": "dock-v",
-            "width": 213
+            "width": 257
           },
           {
             "children": [
@@ -45,7 +46,7 @@
                 ],
                 "height": 493,
                 "type": "panel",
-                "width": 674.984375
+                "width": 631
               },
               {
                 "active": 0,
@@ -55,12 +56,12 @@
                 ],
                 "height": 446,
                 "type": "panel",
-                "width": 674.984375
+                "width": 631
               }
             ],
             "height": 941,
             "type": "dock-v",
-            "width": 674.984375
+            "width": 631
           },
           {
             "active": 0,
@@ -82,8 +83,7 @@
         "inspector",
         "scene"
       ]
-    },
-    "worker": {}
+    }
   },
   "panels": {
     "project-settings": {
