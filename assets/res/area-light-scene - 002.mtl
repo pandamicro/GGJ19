@@ -12,9 +12,9 @@
   "_props": {
     "diffuseColor": {
       "__type__": "cc.Color",
-      "r": 34,
-      "g": 102,
-      "b": 102,
+      "r": 0,
+      "g": 68,
+      "b": 0,
       "a": 255
     },
     "center": {

@@ -1,3 +1,6 @@
+function lerp(from, to, ratio) {
+    return from + (to - from) * ratio;
+}
 
 const addCallback = (fn) => {
     const cb = () => {
@@ -11,6 +14,7 @@ cc.Class({
 
     properties: {
         camera: cc.Camera,
+        boids: require('boids'),
         boidsMaterial: cc.Material,
         postProcessing: require('postProcessing'),
     },
@@ -22,6 +26,22 @@ cc.Class({
         this.dark = cc.color('#337F7F');
         this.color = this.darkBG.clone();
         this.colorBG = this.darkBG.clone();
+        this.obstacleCBs = {};
+    },
+
+    guideBoids (dir, time = 2) {
+        const beg = cc.director._totalFrames;
+        const dur = time * 60;
+        const end = beg + dur;
+        this.boids.guide.set(dir);
+        this.boids.guide.active = true;
+        addCallback((() => {
+            const now = cc.director._totalFrames;
+            if (now > end) {
+                this.boids.guide.active = false;
+                return true;
+            }
+        }).bind(this));
     },
 
     lerpCameraColor (c, time) {
@@ -92,5 +112,25 @@ cc.Class({
         const c2 = cc.color(Math.random() * 255, Math.random() * 255, Math.random() * 255, 255);
         this.lerpBoidsColor(c2, time);
         this.lerpVignetteColor(Math.random() * 0.5, time);
+    },
+
+    lerpObstableBrightness (mat, v = 1, time = 3) {
+        const beg = cc.director._totalFrames;
+        const dur = time * 60;
+        const end = beg + dur;
+        this.obstacleCBs[mat] = true;
+        const ori = mat.getProperty('brightness');
+        addCallback((() => {
+            const now = cc.director._totalFrames;
+            if (now > end) {
+                mat.setProperty('brightness', ori);
+                this.obstacleCBs[mat] = false;
+                return true;
+            }
+            let c = ori, t = (now - beg) / dur;
+            if (t < 0.2) c = lerp(ori, v, t / 0.2);
+            else c = lerp(v, ori, (t - 0.2) / 0.8);
+            mat.setProperty('brightness', Math.sqrt(c));
+        }).bind(this));
     }
 });

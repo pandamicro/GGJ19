@@ -11,5 +11,7 @@
     "OUTPUT_TO_GAMMA": false,
     "USE_LOCAL_COORDS": true
   },
-  "_props": {}
+  "_props": {
+    "size": 3
+  }
 }

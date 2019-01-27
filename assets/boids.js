@@ -15,9 +15,9 @@ const truncateV3 = (v, max) => {
     if (l > max) vec3.scale(v, v, max / l);
 };
 const apply = (acc, vel, v, f, max) => {
-    vec3.scale(v, v, max / vec3.mag(v));
-    truncateV3(vec3.sub(v, v, vel), f);
-    vec3.add(acc, acc, v);
+    vec3.scale(v3_1, v, max / vec3.mag(v));
+    truncateV3(vec3.sub(v3_1, v3_1, vel), f);
+    vec3.add(acc, acc, v3_1);
     v.active = false;
 };
 
@@ -51,7 +51,7 @@ cc.Class({
         maxPos: cc.v3(-400,  400,  1000),
     },
 
-    start () {
+    onLoad () {
         this.range = vec3.sub(cc.v3(), this.maxPos, this.minPos);
         this.nodes = [], this.models = [];
         for (let i = 0; i < this.modelCount; i++) {
@@ -116,7 +116,7 @@ cc.Class({
             if (alignment.active) apply(b1.acc, b1.vel, alignment, alignmentForce, maxVelocity);
             if (cohesion.active) apply(b1.acc, b1.vel, cohesion, cohesionForce, maxVelocity);
             if (separation.active) apply(b1.acc, b1.vel, separation, separationForce, maxVelocity);
-            if (guide.active) apply(b1.acc, b1.vel, guide, guideForce, maxVelocity);
+            if (guide.active) { apply(b1.acc, b1.vel, guide, guideForce, maxVelocity); guide.active = true; }
         }
 
         for (const b of this.nodes) {

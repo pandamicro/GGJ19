@@ -1273,6 +1273,9 @@
     "camera": {
       "__id__": 21
     },
+    "boids": {
+      "__id__": 25
+    },
     "boidsMaterial": {
       "__uuid__": "bde68f5f-178a-4b3f-911b-877402f80678"
     },
