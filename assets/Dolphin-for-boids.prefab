@@ -1960,8 +1960,8 @@
       "__id__": 49
     },
     "_enabled": true,
-    "minInterval": 3,
-    "maxInterval": 6,
+    "minInterval": 10,
+    "maxInterval": 20,
     "_id": ""
   },
   {
@@ -2149,8 +2149,8 @@
       "__id__": 56
     },
     "_enabled": true,
-    "minInterval": 3,
-    "maxInterval": 6,
+    "minInterval": 10,
+    "maxInterval": 20,
     "sprite": {
       "__id__": 57
     },

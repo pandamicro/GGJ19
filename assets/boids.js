@@ -21,6 +21,9 @@ const apply = (acc, vel, v, f, max) => {
     v.active = false;
 };
 
+const sonar = require('sonar');
+const bb = require('DolphinPreb/BBBanim');
+
 const v3_1 = cc.v3();
 const v3_2 = cc.v3();
 const v3_3 = cc.v3();
@@ -81,19 +84,29 @@ cc.Class({
     onLoad () {
         this.range = vec3.sub(cc.v3(), this.maxPos, this.minPos);
         this.nodes = [], this.models = [];
-        const b = this.initBoid();
-        b.vel = cc.v3(1, 1, 0); b.setPosition(0, 1200, 0);
-        cc.director.on(cc.Director.EVENT_AFTER_UPDATE, () => {
-            vec3.add(v3_1, b.getPosition(v3_2), offset);
-            this.camera.setPosition(v3_1);
-        });
         this.alignment = cc.v3(); this.alignment.active = false;
         this.cohesion = cc.v3(); this.cohesion.active = false;
         this.separation = cc.v3(); this.separation.active = false;
         this.guide = cc.v3(); this.guide.active = false;
+        {
+            const b = this.initBoid();
+            b.vel = cc.v3(0.1, 1, 0); b.setPosition(0, 1200, 0);
+            const s = b.getComponentInChildren(sonar);
+            const bc = b.getComponentInChildren(bb);
+            s.begin(); bc.begin();
+            cc.director.on(cc.Director.EVENT_AFTER_UPDATE, () => {
+                vec3.add(v3_1, b.getPosition(v3_2), offset);
+                this.camera.setPosition(v3_1);
+            });
+        }
         setTimeout(() => {
             for (let i = 0; i < this.modelCount; i++)
                 this.initBoid().vel = cc.v3(0, 1, 0);
+            this.nodes.forEach((n) => {
+                const s = n.getComponentInChildren(sonar);
+                const b = n.getComponentInChildren(bb);
+                s.begin(); b.begin();
+            });
         }, 5000);
         setTimeout(() => {
             cc.SceneMgr.brighten(5);
@@ -103,6 +116,11 @@ cc.Class({
         }, 30000);
         setTimeout(() => {
             cc.SceneMgr.pitchBlack(5);
+            this.nodes.forEach((n) => {
+                const s = n.getComponentInChildren(sonar);
+                const b = n.getComponentInChildren(bb);
+                s.stop(); b.stop();
+            })
         }, 45000);
     },
 
