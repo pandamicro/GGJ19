@@ -474,11 +474,6 @@
     "meta": 1548561397186,
     "relativePath": "scene\\gameplay_test.fire"
   },
-  "94c2c9f1-e9bc-42f5-b7fb-b9c0ea50bd23": {
-    "asset": 1548509431004,
-    "meta": 1548561394868,
-    "relativePath": "postProcessing.js"
-  },
   "9fdf95bb-e33d-490c-b195-18ebee1301f1": {
     "asset": 1548524937537,
     "meta": 1548509430757,
@@ -490,8 +485,8 @@
     "relativePath": "pveDoorLight1\\pveDoorLight1.pac"
   },
   "43eaa89d-b166-41b6-92e5-d6bdd57acdf3": {
-    "asset": 1548522038484,
-    "meta": 1548561394914,
+    "asset": 1548568513464,
+    "meta": 1548568513491,
     "relativePath": "pveDoorLight1\\pveDoorLight1.anim"
   },
   "2e4e3e31-1bf4-4d8c-bb09-687458baa89e": {
@@ -789,11 +784,6 @@
     "meta": 1548561397565,
     "relativePath": "scripts\\control\\Movement.js"
   },
-  "c122e7de-ea3a-4486-a53b-443a13eae71f": {
-    "asset": 1548556341484,
-    "meta": 1548561392758,
-    "relativePath": "area-light.effect"
-  },
   "bde68f5f-178a-4b3f-911b-877402f80678": {
     "asset": 1548561255700,
     "meta": 1548561392788,
@@ -820,8 +810,8 @@
     "relativePath": "DolphinPreb\\Dolphin.prefab"
   },
   "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
-    "asset": 1548561681545,
-    "meta": 1548561681620,
+    "asset": 1548565117671,
+    "meta": 1548565117749,
     "relativePath": "scene\\level.fire"
   },
   "d779077c-c89d-4432-9ea1-858dadb40ce7": {
@@ -833,11 +823,6 @@
     "asset": 1548561255754,
     "meta": 1548561397463,
     "relativePath": "scene\\test.fire"
-  },
-  "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
-    "asset": 1548561255757,
-    "meta": 1548561397447,
-    "relativePath": "sceneMgr.js"
   },
   "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
     "asset": 1548530236339,
@@ -958,5 +943,25 @@
     "asset": 1548561255741,
     "meta": 1548561395040,
     "relativePath": "res\\area-light-scene - 008.mtl"
+  },
+  "c122e7de-ea3a-4486-a53b-443a13eae71f": {
+    "asset": 1548562932354,
+    "meta": 1548562998999,
+    "relativePath": "area-light.effect"
+  },
+  "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
+    "asset": 1548564459056,
+    "meta": 1548564496037,
+    "relativePath": "sceneMgr.js"
+  },
+  "94c2c9f1-e9bc-42f5-b7fb-b9c0ea50bd23": {
+    "asset": 1548564856009,
+    "meta": 1548564864604,
+    "relativePath": "postProcessing.js"
+  },
+  "047581af-00c5-4281-8a4f-2e9435160b33": {
+    "asset": 1548568498950,
+    "meta": 1548568500355,
+    "relativePath": "worldMgr.js"
   }
 }

@@ -18,7 +18,7 @@ cc.Class({
         spBloomBlend: cc.Sprite,
     },
 
-    start () {
+    onLoad () {
         const gl = cc.game._renderContext;
         this.spBloomCut.node.width = cc.visibleRect.width;
         this.spBloomCut.node.height = cc.visibleRect.height * 0.9; // HACK: amend for weird stretching

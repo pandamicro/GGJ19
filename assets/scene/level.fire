@@ -83,6 +83,9 @@
       },
       {
         "__id__": 550
+      },
+      {
+        "__id__": 551
       }
     ],
     "_prefab": null,
@@ -20585,5 +20588,45 @@
       "__id__": 547
     },
     "_id": "a5IYoeH6BMDrIS/RI7o8xo"
+  },
+  {
+    "__type__": "04758GvAMVCgYpPLpQ1Fgsz",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "materials": [
+      {
+        "__uuid__": "fdd0dbe4-b6a6-4d90-a4c5-86965a00d023"
+      },
+      {
+        "__uuid__": "faa4f190-a93f-4b54-9c4d-5765e1d486fc"
+      },
+      {
+        "__uuid__": "c423d2eb-0401-4fdc-8c8b-1c5c7c7ae3f3"
+      },
+      {
+        "__uuid__": "8f65d89d-10db-4a7e-b763-bb501531d20b"
+      },
+      {
+        "__uuid__": "908d35bf-f1bd-4237-9ead-e32dd6364580"
+      },
+      {
+        "__uuid__": "0d83e5f7-7e9e-48a3-af6b-659aa91db105"
+      },
+      {
+        "__uuid__": "4b1e8def-7017-409c-82c7-e746e0330d8a"
+      },
+      {
+        "__uuid__": "36ac5e71-a561-4d23-be25-53a57eaaa650"
+      }
+    ],
+    "vignette": 2,
+    "postProcessing": {
+      "__id__": 27
+    },
+    "_id": "52K0A3vCBKDqUmofnGQNyM"
   }
 ]

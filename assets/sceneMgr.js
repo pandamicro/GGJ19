@@ -1,7 +1,3 @@
-function lerp(from, to, ratio) {
-    return from + (to - from) * ratio;
-}
-
 const addCallback = (fn) => {
     const cb = () => {
         if (fn()) cc.director.off(cc.Director.EVENT_AFTER_UPDATE, cb);
@@ -26,7 +22,6 @@ cc.Class({
         this.dark = cc.color('#337F7F');
         this.color = this.darkBG.clone();
         this.colorBG = this.darkBG.clone();
-        this.obstacleCBs = {};
     },
 
     guideBoids (dir, time = 2) {
@@ -113,24 +108,4 @@ cc.Class({
         this.lerpBoidsColor(c2, time);
         this.lerpVignetteColor(Math.random() * 0.5, time);
     },
-
-    lerpObstableBrightness (mat, v = 1, time = 3) {
-        const beg = cc.director._totalFrames;
-        const dur = time * 60;
-        const end = beg + dur;
-        this.obstacleCBs[mat] = true;
-        const ori = mat.getProperty('brightness');
-        addCallback((() => {
-            const now = cc.director._totalFrames;
-            if (now > end) {
-                mat.setProperty('brightness', ori);
-                this.obstacleCBs[mat] = false;
-                return true;
-            }
-            let c = ori, t = (now - beg) / dur;
-            if (t < 0.2) c = lerp(ori, v, t / 0.2);
-            else c = lerp(v, ori, (t - 0.2) / 0.8);
-            mat.setProperty('brightness', Math.sqrt(c));
-        }).bind(this));
-    }
 });
