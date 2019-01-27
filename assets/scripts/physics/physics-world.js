@@ -7,7 +7,7 @@ cc.Class({
     },
 
     // use this for initialization
-    onLoad: function () {
+    start: function () {
         if (!CC_EDITOR) {
             cc.director.getPhysicsManager().debugDrawFlags = 
                 this.debug ? 
@@ -17,5 +17,7 @@ cc.Class({
                 0;
         }
         cc.director.getPhysicsManager()._debugDrawer.node.group = '3d';
+        cc.debug.setDisplayStats(true);
+        cc.find('PROFILER-NODE').group = 'default';
     }
 });

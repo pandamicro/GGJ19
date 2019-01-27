@@ -194,7 +194,7 @@
     },
     "_enabled": true,
     "_cullingMask": -3,
-    "_clearFlags": 7,
+    "_clearFlags": 6,
     "_backgroundColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -202,7 +202,7 @@
       "b": 0,
       "a": 255
     },
-    "_depth": -1,
+    "_depth": 1,
     "_zoomRatio": 1,
     "_targetTexture": null,
     "_fov": 60,
@@ -217,7 +217,7 @@
       "width": 1,
       "height": 1
     },
-    "_renderStages": 1,
+    "_renderStages": 3,
     "_id": "69reJP+AdO+LUiBoL98Stn"
   },
   {
@@ -311,9 +311,9 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 40,
-      "y": 0,
-      "z": 0
+      "x": -265.588,
+      "y": -963.065,
+      "z": 40
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -375,7 +375,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 43.375,
+      "x": 0,
       "y": 0,
       "z": -40
     },
@@ -630,7 +630,7 @@
     },
     "_enabled": true,
     "_cullingMask": 2,
-    "_clearFlags": 6,
+    "_clearFlags": 7,
     "_backgroundColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -720,8 +720,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
+      "x": -305.588,
+      "y": -963.065,
       "z": 0
     },
     "_scale": {
