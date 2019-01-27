@@ -57,6 +57,7 @@ cc.Class({
     },
 
     touchEnd (event) {
+        this.unscheduleAllCallbacks();
         this.scheduleOnce(this.endMove, 3);
     },
 

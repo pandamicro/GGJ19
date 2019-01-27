@@ -12,21 +12,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        dolphin: require('../dolphin/dolphin')
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -34,8 +20,31 @@ cc.Class({
     // onLoad () {},
 
     start () {
-
+        this._startPos = cc.v2();
     },
+
+    onEnable () {
+        this.node.on(cc.Node.EventType.TOUCH_START, this.touchStart, this);
+        this.node.on(cc.Node.EventType.TOUCH_END, this.touchEnd, this);
+    },
+
+    onDisable () {
+        this.node.off(cc.Node.EventType.TOUCH_START, this.touchStart, this);
+        this.node.off(cc.Node.EventType.TOUCH_END, this.touchEnd, this);
+    },
+
+    touchStart (event) {
+        let touch = event.touch;
+        this._startPos.set(touch._point);
+    },
+
+    touchEnd (event) {
+        let touch = event.touch;
+        // Touched
+        if (touch._point.sub(this._startPos).mag() < 3) {
+            this.dolphin.shootBB();
+        }
+    }
 
     // update (dt) {},
 });
