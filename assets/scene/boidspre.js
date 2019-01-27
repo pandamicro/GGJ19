@@ -34,9 +34,9 @@ cc.Class({
     // onLoad () {},
 
     start () {
-        this.node.on('touchend', function () {
-            cc.director.loadScene('boids-pre');
-        });
+        this.scheduleOnce(function () {
+            cc.director.loadScene('cartoon');
+        }, 25);
     },
 
     // update (dt) {},

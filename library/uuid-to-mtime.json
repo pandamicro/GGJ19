@@ -964,11 +964,6 @@
     "meta": 1548573151973,
     "relativePath": "scene/login.fire"
   },
-  "4b2bdd07-8e06-438d-b4aa-d6b65fa26780": {
-    "asset": 1548573132992,
-    "meta": 1548573152068,
-    "relativePath": "scene/login.js"
-  },
   "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
     "asset": 1548573132931,
     "meta": 1548573152078,
@@ -990,13 +985,23 @@
     "relativePath": "res/scene.fbx"
   },
   "a2fc6f86-5a55-4f4f-876f-19835f120e6f": {
-    "asset": 1548573762098,
-    "meta": 1548573762105,
+    "asset": 1548574074784,
+    "meta": 1548574074789,
     "relativePath": "scene/boids-pre.fire"
   },
   "dcc247ac-4d08-4466-97d2-4b02d990d845": {
     "asset": 1548573692433,
     "meta": 1548573704116,
     "relativePath": "boids2.js"
+  },
+  "4b2bdd07-8e06-438d-b4aa-d6b65fa26780": {
+    "asset": 1548573933079,
+    "meta": 1548573936230,
+    "relativePath": "scene/login.js"
+  },
+  "b504f255-a162-4675-a670-a9e97ddf7328": {
+    "asset": 1548574160377,
+    "meta": 1548574161961,
+    "relativePath": "scene/boidspre.js"
   }
 }

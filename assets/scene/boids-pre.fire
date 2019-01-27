@@ -80,6 +80,9 @@
     "_components": [
       {
         "__id__": 26
+      },
+      {
+        "__id__": 27
       }
     ],
     "_prefab": null,
@@ -1229,14 +1232,14 @@
     "guideForce": 0.1,
     "minPos": {
       "__type__": "cc.Vec3",
-      "x": -1500,
-      "y": -1000,
+      "x": -800,
+      "y": -600,
       "z": -1500
     },
     "maxPos": {
       "__type__": "cc.Vec3",
-      "x": -1500,
-      "y": 1000,
+      "x": 800,
+      "y": 600,
       "z": 1500
     },
     "camera": {
@@ -1260,5 +1263,15 @@
     "_fitWidth": false,
     "_fitHeight": true,
     "_id": "04asOUsO9AYJJBo41gMRdr"
+  },
+  {
+    "__type__": "b504fJVoWJGdaZwqel933Mo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_id": "daqd5f9UlNsYd15/bKk+Nm"
   }
 ]
