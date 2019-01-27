@@ -764,11 +764,6 @@
     "meta": 1548527682500,
     "relativePath": "res/login/play01.png"
   },
-  "a06c78b3-b71e-4467-ba27-a83888a3f4a2": {
-    "asset": 1548572616557,
-    "meta": 1548572616564,
-    "relativePath": "scene/login.fire"
-  },
   "bfe51632-4fe5-4c6d-83cc-5f50f0cfcf46": {
     "asset": 1548529065157,
     "meta": 1548529075144,
@@ -784,11 +779,6 @@
     "meta": 1548561773065,
     "relativePath": "area-light.mtl"
   },
-  "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
-    "asset": 1548561769298,
-    "meta": 1548561773064,
-    "relativePath": "boids.js"
-  },
   "c122e7de-ea3a-4486-a53b-443a13eae71f": {
     "asset": 1548568884530,
     "meta": 1548569448110,
@@ -803,26 +793,6 @@
     "asset": 1548530378324,
     "meta": 1548530398305,
     "relativePath": "DolphinPreb/Dolphin.prefab"
-  },
-  "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
-    "asset": 1548573108021,
-    "meta": 1548573108042,
-    "relativePath": "scene/level.fire"
-  },
-  "d779077c-c89d-4432-9ea1-858dadb40ce7": {
-    "asset": 1548530378401,
-    "meta": 1548569452282,
-    "relativePath": "res/newscene.fbx"
-  },
-  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
-    "asset": 1548561769308,
-    "meta": 1548561773587,
-    "relativePath": "scene/test.fire"
-  },
-  "320af994-ba47-46f7-a4e3-9b6e7f8ce660": {
-    "asset": 1548530378324,
-    "meta": 1548530398807,
-    "relativePath": "Dolphin-for-boids.prefab"
   },
   "4c2d9706-3716-41b0-ac99-10a344b7b8d4": {
     "asset": 1548531189651,
@@ -859,11 +829,6 @@
     "meta": 1548531189825,
     "relativePath": "res/cartoon/cartoon03.png"
   },
-  "509f1d9b-8a46-4135-bd0f-fd5999704108": {
-    "asset": 1548572838426,
-    "meta": 1548572838433,
-    "relativePath": "scene/cartoon.fire"
-  },
   "5f592a94-dac6-4af1-b4d1-db8481cfafdf": {
     "asset": 1548556643077,
     "meta": 1548556649509,
@@ -878,11 +843,6 @@
     "asset": 1548561769307,
     "meta": 1548561773079,
     "relativePath": "res/area-light-scene.mtl"
-  },
-  "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
-    "asset": 1548568884531,
-    "meta": 1548569449012,
-    "relativePath": "sceneMgr.js"
   },
   "9e0aa2b8-f92b-4e39-93b7-3da153b9437f": {
     "asset": 1548561769297,
@@ -934,16 +894,6 @@
     "meta": 1548561773661,
     "relativePath": "res/area-light-scene - 008.mtl"
   },
-  "60e4a9c5-f52d-4bad-b38e-a57fa14ddc80": {
-    "asset": 1548525044444,
-    "meta": 1548569452348,
-    "relativePath": "res/scene.fbx"
-  },
-  "c09e2e79-6237-4c54-8071-cc34ea7269ac": {
-    "asset": 1548568884596,
-    "meta": 1548569448506,
-    "relativePath": "DolphinPreb/BBBanim.js"
-  },
   "047581af-00c5-4281-8a4f-2e9435160b33": {
     "asset": 1548568884532,
     "meta": 1548569449197,
@@ -953,11 +903,6 @@
     "asset": 1548570012532,
     "meta": 1548570037278,
     "relativePath": "scripts/control/SonarCtrl.js"
-  },
-  "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
-    "asset": 1548570116341,
-    "meta": 1548570118813,
-    "relativePath": "sonar.js"
   },
   "42997202-06f0-4d42-a1c2-a440aac4507d": {
     "asset": 1548571262569,
@@ -979,14 +924,79 @@
     "meta": 1548572500472,
     "relativePath": "DolphinPreb/BBBanim2.js"
   },
+  "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
+    "asset": 1548573132931,
+    "meta": 1548573151476,
+    "relativePath": "boids.js"
+  },
+  "320af994-ba47-46f7-a4e3-9b6e7f8ce660": {
+    "asset": 1548573132931,
+    "meta": 1548573151503,
+    "relativePath": "Dolphin-for-boids.prefab"
+  },
+  "c09e2e79-6237-4c54-8071-cc34ea7269ac": {
+    "asset": 1548573132930,
+    "meta": 1548573151568,
+    "relativePath": "DolphinPreb/BBBanim.js"
+  },
+  "509f1d9b-8a46-4135-bd0f-fd5999704108": {
+    "asset": 1548573132993,
+    "meta": 1548573151928,
+    "relativePath": "scene/cartoon.fire"
+  },
+  "d779077c-c89d-4432-9ea1-858dadb40ce7": {
+    "asset": 1548530378401,
+    "meta": 1548573152197,
+    "relativePath": "res/newscene.fbx"
+  },
   "09eedff0-c067-4f7e-8af8-384a91d0cf3c": {
-    "asset": 1548572876288,
-    "meta": 1548572881216,
+    "asset": 1548573132992,
+    "meta": 1548573151948,
     "relativePath": "scene/cartoon.js"
   },
+  "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939": {
+    "asset": 1548573132993,
+    "meta": 1548573151966,
+    "relativePath": "scene/level.fire"
+  },
+  "a06c78b3-b71e-4467-ba27-a83888a3f4a2": {
+    "asset": 1548573132993,
+    "meta": 1548573151973,
+    "relativePath": "scene/login.fire"
+  },
   "4b2bdd07-8e06-438d-b4aa-d6b65fa26780": {
-    "asset": 1548572873135,
-    "meta": 1548572881216,
+    "asset": 1548573132992,
+    "meta": 1548573152068,
     "relativePath": "scene/login.js"
+  },
+  "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
+    "asset": 1548573132931,
+    "meta": 1548573152078,
+    "relativePath": "sceneMgr.js"
+  },
+  "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
+    "asset": 1548573132931,
+    "meta": 1548573152083,
+    "relativePath": "sonar.js"
+  },
+  "4cff07ba-defd-48dd-bebe-d248c28a8b5f": {
+    "asset": 1548573132930,
+    "meta": 1548573152083,
+    "relativePath": "scene/boids.fire"
+  },
+  "60e4a9c5-f52d-4bad-b38e-a57fa14ddc80": {
+    "asset": 1548525044444,
+    "meta": 1548573152254,
+    "relativePath": "res/scene.fbx"
+  },
+  "a2fc6f86-5a55-4f4f-876f-19835f120e6f": {
+    "asset": 1548573762098,
+    "meta": 1548573762105,
+    "relativePath": "scene/boids-pre.fire"
+  },
+  "dcc247ac-4d08-4466-97d2-4b02d990d845": {
+    "asset": 1548573692433,
+    "meta": 1548573704116,
+    "relativePath": "boids2.js"
   }
 }
