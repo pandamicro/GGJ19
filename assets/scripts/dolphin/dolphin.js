@@ -83,6 +83,11 @@ cc.Class({
             else if (distanceFromCenter <= 1200 && this.root.z !== -40) {
                 this.root.z = cc.misc.lerp(this.root.z, -40, 0.1);
             }
+
+            if (this.target._position.sub(this.pt).mag() < 100) {
+                cc.director.loadScene('boids');
+                this.enabled = false;
+            }
         }
     },
 
