@@ -101,6 +101,11 @@ cc.Class({
         this.lerpVignetteColor(0.2, time);
     },
 
+    pitchBlack (time = 1) {
+        this.lerpCameraColor(cc.color(), time);
+        this.lerpBoidsColor(cc.color(), time);
+    },
+
     random (time = 1) {
         const c1 = cc.color(Math.random() * 255, Math.random() * 255, Math.random() * 255, 255);
         this.lerpCameraColor(c1, time);

@@ -35,13 +35,10 @@
     "_components": [
       {
         "__id__": 62
-      },
-      {
-        "__id__": 63
       }
     ],
     "_prefab": {
-      "__id__": 64
+      "__id__": 63
     },
     "_opacity": 255,
     "_color": {
@@ -1963,8 +1960,8 @@
       "__id__": 49
     },
     "_enabled": true,
-    "minInterval": 10,
-    "maxInterval": 20,
+    "minInterval": 3,
+    "maxInterval": 6,
     "_id": ""
   },
   {
@@ -2152,8 +2149,8 @@
       "__id__": 56
     },
     "_enabled": true,
-    "minInterval": 10,
-    "maxInterval": 20,
+    "minInterval": 3,
+    "maxInterval": 6,
     "sprite": {
       "__id__": 57
     },
@@ -2202,16 +2199,6 @@
     "_model": {
       "__uuid__": "a4988e22-90e8-4fe5-845a-aed64f38a995"
     },
-    "_id": ""
-  },
-  {
-    "__type__": "96658rWv+JPc6Dy3cV03Nk0",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
     "_id": ""
   },
   {

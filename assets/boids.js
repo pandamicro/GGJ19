@@ -26,6 +26,7 @@ const v3_2 = cc.v3();
 const v3_3 = cc.v3();
 const quat_1 = cc.quat();
 const _up = cc.v3(0, 1, 0);
+const offset = cc.v3(0, 0, 2000);
 
 const addCallback = (fn) => {
     const cb = () => {
@@ -80,16 +81,29 @@ cc.Class({
     onLoad () {
         this.range = vec3.sub(cc.v3(), this.maxPos, this.minPos);
         this.nodes = [], this.models = [];
-        this.initBoid().vel.set(0, 1, 0);
+        const b = this.initBoid();
+        b.vel = cc.v3(1, 1, 0); b.setPosition(0, 1200, 0);
+        cc.director.on(cc.Director.EVENT_AFTER_UPDATE, () => {
+            vec3.add(v3_1, b.getPosition(v3_2), offset);
+            this.camera.setPosition(v3_1);
+        });
         this.alignment = cc.v3(); this.alignment.active = false;
         this.cohesion = cc.v3(); this.cohesion.active = false;
         this.separation = cc.v3(); this.separation.active = false;
         this.guide = cc.v3(); this.guide.active = false;
-        const n = this.modelCount - 1;
         setTimeout(() => {
-            for (let i = 0; i < n; i++) this.initBoid();
-            cc.SceneMgr.guideBoids(cc.v3(0, 1, 0));
+            for (let i = 0; i < this.modelCount; i++)
+                this.initBoid().vel = cc.v3(0, 1, 0);
         }, 5000);
+        setTimeout(() => {
+            cc.SceneMgr.brighten(5);
+        }, 15000);
+        setTimeout(() => {
+            cc.SceneMgr.taichi(5);
+        }, 30000);
+        setTimeout(() => {
+            cc.SceneMgr.pitchBlack(5);
+        }, 45000);
     },
 
     update () {
@@ -137,7 +151,7 @@ cc.Class({
         for (const b of this.nodes) {
             b.getPosition(v3_1);
             truncateV3(vec3.add(b.vel, b.vel, b.acc), maxVelocity);
-            wrapV3(vec3.add(v3_1, v3_1, b.vel), minPos, maxPos, range);
+            vec3.add(v3_1, v3_1, b.vel);
             b.setPosition(v3_1);
             b.setRotation(quat.fromViewUp(quat_1, vec3.normalize(v3_1, b.vel), _up));
         }
