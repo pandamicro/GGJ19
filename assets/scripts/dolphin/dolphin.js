@@ -12,9 +12,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        bbb: require('../../DolphinPreb/BBBanim'),
-        sonar: require('../../sonar'),
-        root: cc.Node
+        bbb: require('../../DolphinPreb/BBBanim2'),
+        sonar: require('../../sonar2'),
+        root: cc.Node,
+        target: cc.Node
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -31,6 +32,8 @@ cc.Class({
         this._accum = 0;
         this._turn = 0;
         this.ani.play('move');
+        this.feedback = cc.find('sonar/feedback');
+        this.vector = null;
     },
 
     update (dt) {
@@ -87,9 +90,29 @@ cc.Class({
         this.ani.playAdditive('move');
     },
 
+    showFeedback () {
+        let pos = this.vector.normalizeSelf().mulSelf(450);
+        this.feedback.setPosition(pos);
+        this.feedback.angle = this.angle - 90;
+        this.feedback.active = true;
+        this.scheduleOnce(function () {
+            this.feedback.active = false;
+        }, 3);
+    },
+
     shootBB () {
         let shoot = this.bbb.play();
         this.sonar.activate();
+        if (shoot) {
+            let dolphin = this.node.parent;
+            let rotation = dolphin.eulerAngles.z;
+            this.vector = this.target._position.sub(dolphin._position);
+            this.angle = Math.atan2(this.vector.y, this.vector.x) * 180 / Math.PI;
+            if (Math.abs(rotation - this.angle) < 30) {
+                // Target Detected
+                this.scheduleOnce(this.showFeedback, 5);
+            }
+        }
     }
 
     // update (dt) {},
