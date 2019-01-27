@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "test",
+    "_name": "boids",
     "_objFlags": 0,
     "_native": "",
     "scene": {
@@ -1243,6 +1243,7 @@
       "y": 1000,
       "z": 500
     },
+    "camera": null,
     "_id": "58bbQ8951Booc0mqTNDH3u"
   },
   {

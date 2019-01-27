@@ -49,32 +49,47 @@ cc.Class({
         guideForce: 0.09, // [0, 0.25]
         minPos: cc.v3(-800, -400, -1000),
         maxPos: cc.v3(-400,  400,  1000),
+        camera: cc.Node,
+    },
+
+    initBoid () {
+        const m = cc.instantiate(this.model);
+        m.parent = this.node;
+        const theta = Math.random() * Math.PI * 2;
+        const phi = Math.random() * Math.PI * 0.5;
+        const r = Math.random() * 800;
+        m.setPosition(
+            Math.cos(theta) * Math.sin(phi) * r,
+            Math.sin(theta) * Math.sin(phi) * r,
+            Math.cos(phi)) * r - 800;
+        m.acc = cc.v3();
+        m.vel = cc.v3(
+            this.range.x ? random(-1, 1) : 0,
+            this.range.y ? random(-1, 1) : 0,
+            this.range.z ? random(-1, 1) : 0);
+        vec3.scale(m.vel, m.vel, this.maxVelocity);
+        const anim = m.getComponent(cc.SkeletonAnimation);
+        setTimeout(() => anim.play(), Math.random() * 1000);
+        // not working!
+        // const t = anim.defaultClip.duration;
+        // anim.setCurrentTime(Math.random() * t);
+        this.nodes.push(m);
+        return m;
     },
 
     onLoad () {
         this.range = vec3.sub(cc.v3(), this.maxPos, this.minPos);
         this.nodes = [], this.models = [];
-        for (let i = 0; i < this.modelCount; i++) {
-            const m = cc.instantiate(this.model);
-            m.parent = this.node;
-            m.setPosition(randomV3(this.minPos, this.maxPos));
-            m.acc = cc.v3();
-            m.vel = cc.v3(
-                this.range.x ? random(-1, 1) : 0,
-                this.range.y ? random(-1, 1) : 0,
-                this.range.z ? random(-1, 1) : 0);
-            vec3.scale(m.vel, m.vel, this.maxVelocity);
-            const anim = m.getComponent(cc.SkeletonAnimation);
-            setTimeout(() => anim.play(), Math.random() * 1000);
-            // not working!
-            // const t = anim.defaultClip.duration;
-            // anim.setCurrentTime(Math.random() * t);
-            this.nodes.push(m);
-        }
+        this.initBoid().vel.set(0, 1, 0);
         this.alignment = cc.v3(); this.alignment.active = false;
         this.cohesion = cc.v3(); this.cohesion.active = false;
         this.separation = cc.v3(); this.separation.active = false;
         this.guide = cc.v3(); this.guide.active = false;
+        const n = this.modelCount - 1;
+        setTimeout(() => {
+            for (let i = 0; i < n; i++) this.initBoid();
+            cc.SceneMgr.guideBoids(cc.v3(0, 1, 0));
+        }, 5000);
     },
 
     update () {
