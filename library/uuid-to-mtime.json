@@ -385,7 +385,7 @@
     "relativePath": "resources/materials/builtin-spine.mtl"
   },
   "0f91c58f-b646-4619-b20e-cf7c55786d0e": {
-    "asset": 1548569416703,
+    "asset": 1548574761328,
     "meta": 1548430342744,
     "relativePath": "scene"
   },
@@ -410,7 +410,7 @@
     "relativePath": "scripts"
   },
   "83f2c3ed-3e33-42e0-aa88-0f910d37afbd": {
-    "asset": 1548568884596,
+    "asset": 1548569674894,
     "meta": 1548433862224,
     "relativePath": "scripts/control"
   },
@@ -499,11 +499,6 @@
     "meta": 1548510189702,
     "relativePath": "pveDoorLight1/search4.png"
   },
-  "eb8c7fe1-4d34-4042-985c-05d9102f8e15": {
-    "asset": 1548515350585,
-    "meta": 1548515356394,
-    "relativePath": "scripts/control/CenterCamera.js"
-  },
   "65795499-5ec2-4459-bd41-502b9632a497": {
     "asset": 1548523860929,
     "meta": 1548523860926,
@@ -540,12 +535,12 @@
     "relativePath": "dolphin/Dolphin@move.FBX"
   },
   "e2a82d6f-54bd-4c63-b5c3-0eb633dfa436": {
-    "asset": 1548569407811,
+    "asset": 1548574761328,
     "meta": 1548523860928,
     "relativePath": "scripts/dolphin"
   },
   "3b9235c0-bd86-41b6-9e4b-632cad14bf92": {
-    "asset": 1548568884596,
+    "asset": 1548574761268,
     "meta": 1548524810194,
     "relativePath": "DolphinPreb"
   },
@@ -555,7 +550,7 @@
     "relativePath": "DolphinPreb/BBBBB.png"
   },
   "8dd6be15-5a09-4b25-8d58-a9a84806c7ba": {
-    "asset": 1548568884595,
+    "asset": 1548573132930,
     "meta": 1548524927927,
     "relativePath": "res"
   },
@@ -940,8 +935,8 @@
     "relativePath": "scene/level.fire"
   },
   "a06c78b3-b71e-4467-ba27-a83888a3f4a2": {
-    "asset": 1548573132993,
-    "meta": 1548573151973,
+    "asset": 1548575036582,
+    "meta": 1548575036599,
     "relativePath": "scene/login.fire"
   },
   "87b8b9e3-a3c0-40c7-90e5-6b3332608f27": {
@@ -970,14 +965,9 @@
     "relativePath": "scene/login.js"
   },
   "b504f255-a162-4675-a670-a9e97ddf7328": {
-    "asset": 1548574160377,
-    "meta": 1548574161961,
+    "asset": 1548574162696,
+    "meta": 1548586134400,
     "relativePath": "scene/boidspre.js"
-  },
-  "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
-    "asset": 1548574761269,
-    "meta": 1548574766173,
-    "relativePath": "boids.js"
   },
   "320af994-ba47-46f7-a4e3-9b6e7f8ce660": {
     "asset": 1548574761270,
@@ -994,14 +984,24 @@
     "meta": 1548574766229,
     "relativePath": "scene/boids.fire"
   },
-  "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
-    "asset": 1548574761328,
-    "meta": 1548574766253,
-    "relativePath": "scripts/dolphin/dolphin.js"
-  },
   "3d0cf7fb-9b6a-4f4d-9250-c60a75f30e43": {
     "asset": 1548574761269,
     "meta": 1548574766253,
     "relativePath": "sonar.js"
+  },
+  "e0a3c364-7f68-43bc-b6bf-1ebbd79a6638": {
+    "asset": 1548575173508,
+    "meta": 1548575176259,
+    "relativePath": "boids.js"
+  },
+  "96658ad6-bfe2-4f73-a0f2-ddc574dcd934": {
+    "asset": 1548575320212,
+    "meta": 1548575322684,
+    "relativePath": "scripts/dolphin/dolphin.js"
+  },
+  "eb8c7fe1-4d34-4042-985c-05d9102f8e15": {
+    "asset": 1548586257477,
+    "meta": 1548586257855,
+    "relativePath": "scripts/control/CenterCamera.js"
   }
 }

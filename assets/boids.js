@@ -21,8 +21,8 @@ const apply = (acc, vel, v, f, max) => {
     v.active = false;
 };
 
-const sonar = require('sonar');
-const bb = require('DolphinPreb/BBBanim');
+const sonar = require('./sonar');
+const bb = require('./DolphinPreb/BBBanim');
 
 const v3_1 = cc.v3();
 const v3_2 = cc.v3();
