@@ -84,7 +84,7 @@ cc.Class({
                 this.root.z = cc.misc.lerp(this.root.z, -40, 0.1);
             }
 
-            if (this.target._position.sub(this.pt).mag() < 100) {
+            if (this.target._position.sub(this.pt).mag() < 200) {
                 cc.director.loadScene('boids');
                 this.enabled = false;
             }
