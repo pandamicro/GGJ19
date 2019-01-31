@@ -20950,7 +20950,7 @@
         "__uuid__": "36ac5e71-a561-4d23-be25-53a57eaaa650"
       }
     ],
-    "vignette": 1.2,
+    "vignette": 0.1,
     "postProcessing": {
       "__id__": 27
     },
