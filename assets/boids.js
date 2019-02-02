@@ -65,7 +65,7 @@ cc.Class({
         m.setPosition(
             Math.cos(theta) * Math.sin(phi) * r,
             Math.sin(theta) * Math.sin(phi) * r,
-            Math.cos(phi)) * r - 800;
+            Math.cos(phi) * r);
         m.acc = cc.v3();
         m.vel = cc.v3(
             this.range.x ? random(-1, 1) : 0,
@@ -81,47 +81,50 @@ cc.Class({
         return m;
     },
 
-    onLoad () {
+    start () {
         this.range = vec3.sub(cc.v3(), this.maxPos, this.minPos);
         this.nodes = [], this.models = [];
         this.alignment = cc.v3(); this.alignment.active = false;
         this.cohesion = cc.v3(); this.cohesion.active = false;
         this.separation = cc.v3(); this.separation.active = false;
         this.guide = cc.v3(); this.guide.active = false;
-        {
-            const b = this.initBoid();
-            b.vel = cc.v3(0.1, 1, 0); b.setPosition(0, 1200, 0);
-            const s = b.getComponentInChildren(sonar);
-            const bc = b.getComponentInChildren(bb);
-            s.begin(); bc.begin();
-            cc.director.on(cc.Director.EVENT_AFTER_UPDATE, () => {
-                vec3.add(v3_1, b.getPosition(v3_2), offset);
-                this.camera.setPosition(v3_1);
-            });
-        }
-        setTimeout(() => {
+        // {
+        //     const b = this.initBoid();
+        //     b.vel = cc.v3(0.1, 1, 0); b.setPosition(0, 1200, 0);
+        //     const s = b.getComponentInChildren(sonar);
+        //     const bc = b.getComponentInChildren(bb);
+        //     s.begin(); bc.begin();
+        //     cc.director.on(cc.Director.EVENT_AFTER_UPDATE, () => {
+        //         vec3.add(v3_1, b.getPosition(v3_2), offset);
+        //         this.camera.setPosition(v3_1);
+        //     });
+        // }
+        // setTimeout(() => {
             for (let i = 0; i < this.modelCount; i++)
-                this.initBoid().vel = cc.v3(0, 1, 0);
+                this.initBoid();
             this.nodes.forEach((n) => {
                 const s = n.getComponentInChildren(sonar);
                 const b = n.getComponentInChildren(bb);
                 s.begin(); b.begin();
             });
-        }, 5000);
+        // }, 5000);
         setTimeout(() => {
             cc.SceneMgr.brighten(5);
         }, 15000);
         setTimeout(() => {
             cc.SceneMgr.taichi(5);
+            setInterval(() => {
+                cc.SceneMgr.random(5);
+            }, 15000);
         }, 30000);
-        setTimeout(() => {
-            cc.SceneMgr.pitchBlack(5);
-            this.nodes.forEach((n) => {
-                const s = n.getComponentInChildren(sonar);
-                const b = n.getComponentInChildren(bb);
-                s.stop(); b.stop();
-            })
-        }, 45000);
+        // setTimeout(() => {
+        //     cc.SceneMgr.pitchBlack(5);
+        //     this.nodes.forEach((n) => {
+        //         const s = n.getComponentInChildren(sonar);
+        //         const b = n.getComponentInChildren(bb);
+        //         s.stop(); b.stop();
+        //     })
+        // }, 45000);
     },
 
     update () {
@@ -169,7 +172,7 @@ cc.Class({
         for (const b of this.nodes) {
             b.getPosition(v3_1);
             truncateV3(vec3.add(b.vel, b.vel, b.acc), maxVelocity);
-            vec3.add(v3_1, v3_1, b.vel);
+            wrapV3(vec3.add(v3_1, v3_1, b.vel), minPos, maxPos, range);
             b.setPosition(v3_1);
             b.setRotation(quat.fromViewUp(quat_1, vec3.normalize(v3_1, b.vel), _up));
         }

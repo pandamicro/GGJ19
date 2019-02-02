@@ -35,6 +35,7 @@ cc.Class({
         t2.initWithSize(cc.visibleRect.width, cc.visibleRect.height, gl.DEPTH_STENCIL);
         const t3 = new cc.RenderTexture();
         t3.initWithSize(cc.visibleRect.width, cc.visibleRect.height, gl.DEPTH_STENCIL);
+        console.log(cc.visibleRect.width, cc.visibleRect.height);
         const tex_offset = cc.v2(1 / cc.visibleRect.width, 1 / cc.visibleRect.height);
         const resolution = cc.v3(cc.visibleRect.width, cc.visibleRect.height, cc.visibleRect.width / cc.visibleRect.height);
         const kernelHead = 0.227027;
