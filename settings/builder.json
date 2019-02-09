@@ -8,7 +8,13 @@
     "skipRecord": false
   },
   "encryptJs": true,
-  "excludeScenes": [],
+  "excludeScenes": [
+    "a2fc6f86-5a55-4f4f-876f-19835f120e6f",
+    "509f1d9b-8a46-4135-bd0f-fd5999704108",
+    "6f3b0983-2892-496c-8879-1e34ad3ccb50",
+    "d17c1ca0-1f6f-4f6d-a6cd-905be5ad3939",
+    "a06c78b3-b71e-4467-ba27-a83888a3f4a2"
+  ],
   "fb-instant-games": {},
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
@@ -28,7 +34,7 @@
     "orientation": "portrait",
     "zip": false
   },
-  "startScene": "a06c78b3-b71e-4467-ba27-a83888a3f4a2",
+  "startScene": "4cff07ba-defd-48dd-bebe-d248c28a8b5f",
   "title": "GGJ19",
   "webOrientation": "auto",
   "wechatgame": {
